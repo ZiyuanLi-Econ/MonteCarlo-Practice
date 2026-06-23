@@ -1,0 +1,15 @@
+CCT baseline design replication config
+reps=5000
+n=500
+seed=12345
+true_tau=-3.45
+sigma_eps=0.1295
+bwselect=mserd
+rbc_cerrd_bwselect=cerrd
+vce=nn
+kernel=tri
+p=1
+q=2
+level=95.0
+masspoints=off
+us_scale=0.5
