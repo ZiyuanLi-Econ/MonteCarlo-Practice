@@ -1,0 +1,20 @@
+CCT DGP2 severe non-normal comparison config (paired X design)
+design=paired_running_variable_by_replication
+error_streams=N0_baseline_stream,N1_N2_N3_independent_streams
+reps=5000
+n=500
+seed=12345
+scenarios=N0,N1,N2,N3
+methods=conventional_mserd,rbc_mserd
+bootstrap=removed
+true_tau=-3.45
+sigma_eps=0.1295
+bwselect=mserd
+vce=nn
+nnmatch=3
+kernel=tri
+p=1
+q=2
+level=95.0
+masspoints=off
+outdir=results
