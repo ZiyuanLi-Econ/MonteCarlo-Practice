@@ -1,0 +1,550 @@
+n,regime,method,frontier_failure_reason,count,share_within_scenario_method
+500,continuous,Bias-aware/Honest,ok,5000,1.0
+500,continuous,Conventional MSE,ok,5000,1.0
+500,continuous,RBC MSE,ok,5000,1.0
+500,fixed_delta_0.01,Bias-aware/Honest,ok,5000,1.0
+500,fixed_delta_0.01,Conventional MSE,ok,5000,1.0
+500,fixed_delta_0.01,RBC MSE,ok,5000,1.0
+500,fixed_delta_0.015,Bias-aware/Honest,ok,5000,1.0
+500,fixed_delta_0.015,Conventional MSE,ok,5000,1.0
+500,fixed_delta_0.015,RBC MSE,ok,5000,1.0
+500,fixed_delta_0.02,Bias-aware/Honest,ok,5000,1.0
+500,fixed_delta_0.02,Conventional MSE,ok,5000,1.0
+500,fixed_delta_0.02,RBC MSE,ok,5000,1.0
+500,fixed_delta_0.025,Bias-aware/Honest,ok,5000,1.0
+500,fixed_delta_0.025,Conventional MSE,ok,5000,1.0
+500,fixed_delta_0.025,RBC MSE,ok,5000,1.0
+500,fixed_delta_0.03,Bias-aware/Honest,ok,4998,0.9996
+500,fixed_delta_0.03,Bias-aware/Honest,too_few_obs_h,2,0.0004
+500,fixed_delta_0.03,Conventional MSE,ok,4998,0.9996
+500,fixed_delta_0.03,Conventional MSE,too_few_obs_h,2,0.0004
+500,fixed_delta_0.03,RBC MSE,ok,4998,0.9996
+500,fixed_delta_0.03,RBC MSE,too_few_obs_h,2,0.0004
+500,fixed_delta_0.035,Bias-aware/Honest,ok,4997,0.9994
+500,fixed_delta_0.035,Bias-aware/Honest,too_few_obs_h,3,0.0006
+500,fixed_delta_0.035,Conventional MSE,ok,4997,0.9994
+500,fixed_delta_0.035,Conventional MSE,too_few_obs_h,3,0.0006
+500,fixed_delta_0.035,RBC MSE,ok,4997,0.9994
+500,fixed_delta_0.035,RBC MSE,too_few_obs_h,3,0.0006
+500,fixed_delta_0.04,Bias-aware/Honest,ok,4999,0.9998
+500,fixed_delta_0.04,Bias-aware/Honest,too_few_obs_h,1,0.0002
+500,fixed_delta_0.04,Conventional MSE,ok,4999,0.9998
+500,fixed_delta_0.04,Conventional MSE,too_few_obs_h,1,0.0002
+500,fixed_delta_0.04,RBC MSE,ok,4999,0.9998
+500,fixed_delta_0.04,RBC MSE,too_few_obs_h,1,0.0002
+500,fixed_delta_0.045,Bias-aware/Honest,ok,5000,1.0
+500,fixed_delta_0.045,Conventional MSE,ok,5000,1.0
+500,fixed_delta_0.045,RBC MSE,ok,5000,1.0
+500,fixed_delta_0.05,Bias-aware/Honest,ok,4998,0.9996
+500,fixed_delta_0.05,Bias-aware/Honest,nan_ci,1,0.0002
+500,fixed_delta_0.05,Bias-aware/Honest,raw_failure,1,0.0002
+500,fixed_delta_0.05,Conventional MSE,ok,4998,0.9996
+500,fixed_delta_0.05,Conventional MSE,nan_ci,1,0.0002
+500,fixed_delta_0.05,Conventional MSE,raw_failure,1,0.0002
+500,fixed_delta_0.05,RBC MSE,ok,4998,0.9996
+500,fixed_delta_0.05,RBC MSE,insufficient_unique_h,1,0.0002
+500,fixed_delta_0.05,RBC MSE,raw_failure,1,0.0002
+500,fixed_delta_0.055,Bias-aware/Honest,ok,4991,0.9982
+500,fixed_delta_0.055,Bias-aware/Honest,raw_failure,7,0.0014
+500,fixed_delta_0.055,Bias-aware/Honest,nan_ci,2,0.0004
+500,fixed_delta_0.055,Conventional MSE,ok,4991,0.9982
+500,fixed_delta_0.055,Conventional MSE,raw_failure,7,0.0014
+500,fixed_delta_0.055,Conventional MSE,insufficient_unique_h,1,0.0002
+500,fixed_delta_0.055,Conventional MSE,nan_ci,1,0.0002
+500,fixed_delta_0.055,RBC MSE,ok,4991,0.9982
+500,fixed_delta_0.055,RBC MSE,raw_failure,7,0.0014
+500,fixed_delta_0.055,RBC MSE,insufficient_unique_h,1,0.0002
+500,fixed_delta_0.055,RBC MSE,nan_ci,1,0.0002
+500,fixed_delta_0.06,Bias-aware/Honest,ok,4955,0.991
+500,fixed_delta_0.06,Bias-aware/Honest,raw_failure,34,0.0068
+500,fixed_delta_0.06,Bias-aware/Honest,nan_ci,11,0.0022
+500,fixed_delta_0.06,Conventional MSE,ok,4955,0.991
+500,fixed_delta_0.06,Conventional MSE,raw_failure,34,0.0068
+500,fixed_delta_0.06,Conventional MSE,nan_ci,8,0.0016
+500,fixed_delta_0.06,Conventional MSE,insufficient_unique_h,3,0.0006
+500,fixed_delta_0.06,RBC MSE,ok,4955,0.991
+500,fixed_delta_0.06,RBC MSE,raw_failure,34,0.0068
+500,fixed_delta_0.06,RBC MSE,insufficient_unique_h,6,0.0012
+500,fixed_delta_0.06,RBC MSE,nan_ci,5,0.001
+500,fixed_delta_0.065,Bias-aware/Honest,ok,4865,0.973
+500,fixed_delta_0.065,Bias-aware/Honest,raw_failure,81,0.0162
+500,fixed_delta_0.065,Bias-aware/Honest,nan_ci,54,0.0108
+500,fixed_delta_0.065,Conventional MSE,ok,4865,0.973
+500,fixed_delta_0.065,Conventional MSE,raw_failure,81,0.0162
+500,fixed_delta_0.065,Conventional MSE,nan_ci,28,0.0056
+500,fixed_delta_0.065,Conventional MSE,insufficient_unique_h,26,0.0052
+500,fixed_delta_0.065,RBC MSE,ok,4865,0.973
+500,fixed_delta_0.065,RBC MSE,raw_failure,81,0.0162
+500,fixed_delta_0.065,RBC MSE,insufficient_unique_h,30,0.006
+500,fixed_delta_0.065,RBC MSE,nan_ci,24,0.0048
+500,fixed_delta_0.07,Bias-aware/Honest,ok,4668,0.9336
+500,fixed_delta_0.07,Bias-aware/Honest,raw_failure,208,0.0416
+500,fixed_delta_0.07,Bias-aware/Honest,nan_ci,124,0.0248
+500,fixed_delta_0.07,Conventional MSE,ok,4668,0.9336
+500,fixed_delta_0.07,Conventional MSE,raw_failure,208,0.0416
+500,fixed_delta_0.07,Conventional MSE,insufficient_unique_h,63,0.0126
+500,fixed_delta_0.07,Conventional MSE,nan_ci,61,0.0122
+500,fixed_delta_0.07,RBC MSE,ok,4668,0.9336
+500,fixed_delta_0.07,RBC MSE,raw_failure,208,0.0416
+500,fixed_delta_0.07,RBC MSE,nan_ci,66,0.0132
+500,fixed_delta_0.07,RBC MSE,insufficient_unique_h,58,0.0116
+500,fixed_delta_0.075,Bias-aware/Honest,ok,4285,0.857
+500,fixed_delta_0.075,Bias-aware/Honest,raw_failure,477,0.0954
+500,fixed_delta_0.075,Bias-aware/Honest,nan_ci,238,0.0476
+500,fixed_delta_0.075,Conventional MSE,ok,4285,0.857
+500,fixed_delta_0.075,Conventional MSE,raw_failure,477,0.0954
+500,fixed_delta_0.075,Conventional MSE,nan_ci,125,0.025
+500,fixed_delta_0.075,Conventional MSE,insufficient_unique_h,113,0.0226
+500,fixed_delta_0.075,RBC MSE,ok,4285,0.857
+500,fixed_delta_0.075,RBC MSE,raw_failure,477,0.0954
+500,fixed_delta_0.075,RBC MSE,nan_ci,129,0.0258
+500,fixed_delta_0.075,RBC MSE,insufficient_unique_h,109,0.0218
+500,fixed_delta_0.08,Bias-aware/Honest,ok,3694,0.7388
+500,fixed_delta_0.08,Bias-aware/Honest,raw_failure,854,0.1708
+500,fixed_delta_0.08,Bias-aware/Honest,nan_ci,452,0.0904
+500,fixed_delta_0.08,Conventional MSE,ok,3694,0.7388
+500,fixed_delta_0.08,Conventional MSE,raw_failure,854,0.1708
+500,fixed_delta_0.08,Conventional MSE,nan_ci,238,0.0476
+500,fixed_delta_0.08,Conventional MSE,insufficient_unique_h,214,0.0428
+500,fixed_delta_0.08,RBC MSE,ok,3694,0.7388
+500,fixed_delta_0.08,RBC MSE,raw_failure,854,0.1708
+500,fixed_delta_0.08,RBC MSE,insufficient_unique_h,227,0.0454
+500,fixed_delta_0.08,RBC MSE,nan_ci,225,0.045
+500,fixed_delta_0.09,Bias-aware/Honest,ok,2636,0.5272
+500,fixed_delta_0.09,Bias-aware/Honest,raw_failure,1514,0.3028
+500,fixed_delta_0.09,Bias-aware/Honest,nan_ci,850,0.17
+500,fixed_delta_0.09,Conventional MSE,ok,2636,0.5272
+500,fixed_delta_0.09,Conventional MSE,raw_failure,1514,0.3028
+500,fixed_delta_0.09,Conventional MSE,nan_ci,431,0.0862
+500,fixed_delta_0.09,Conventional MSE,insufficient_unique_h,419,0.0838
+500,fixed_delta_0.09,RBC MSE,ok,2636,0.5272
+500,fixed_delta_0.09,RBC MSE,raw_failure,1514,0.3028
+500,fixed_delta_0.09,RBC MSE,nan_ci,456,0.0912
+500,fixed_delta_0.09,RBC MSE,insufficient_unique_h,394,0.0788
+500,fixed_delta_0.1,Bias-aware/Honest,ok,2101,0.4202
+500,fixed_delta_0.1,Bias-aware/Honest,raw_failure,1815,0.363
+500,fixed_delta_0.1,Bias-aware/Honest,nan_ci,1084,0.2168
+500,fixed_delta_0.1,Conventional MSE,ok,2101,0.4202
+500,fixed_delta_0.1,Conventional MSE,raw_failure,1815,0.363
+500,fixed_delta_0.1,Conventional MSE,insufficient_unique_h,558,0.1116
+500,fixed_delta_0.1,Conventional MSE,nan_ci,526,0.1052
+500,fixed_delta_0.1,RBC MSE,ok,2101,0.4202
+500,fixed_delta_0.1,RBC MSE,raw_failure,1815,0.363
+500,fixed_delta_0.1,RBC MSE,nan_ci,569,0.1138
+500,fixed_delta_0.1,RBC MSE,insufficient_unique_h,515,0.103
+500,fixed_delta_0.12,Bias-aware/Honest,raw_failure,3308,0.6616
+500,fixed_delta_0.12,Bias-aware/Honest,nan_ci,1644,0.3288
+500,fixed_delta_0.12,Bias-aware/Honest,ok,48,0.0096
+500,fixed_delta_0.12,Conventional MSE,raw_failure,3308,0.6616
+500,fixed_delta_0.12,Conventional MSE,nan_ci,861,0.1722
+500,fixed_delta_0.12,Conventional MSE,insufficient_unique_h,783,0.1566
+500,fixed_delta_0.12,Conventional MSE,ok,48,0.0096
+500,fixed_delta_0.12,RBC MSE,raw_failure,3308,0.6616
+500,fixed_delta_0.12,RBC MSE,insufficient_unique_h,853,0.1706
+500,fixed_delta_0.12,RBC MSE,nan_ci,791,0.1582
+500,fixed_delta_0.12,RBC MSE,ok,48,0.0096
+500,shrinking_delta,Bias-aware/Honest,ok,4998,0.9996
+500,shrinking_delta,Bias-aware/Honest,nan_ci,1,0.0002
+500,shrinking_delta,Bias-aware/Honest,raw_failure,1,0.0002
+500,shrinking_delta,Conventional MSE,ok,4998,0.9996
+500,shrinking_delta,Conventional MSE,nan_ci,1,0.0002
+500,shrinking_delta,Conventional MSE,raw_failure,1,0.0002
+500,shrinking_delta,RBC MSE,ok,4998,0.9996
+500,shrinking_delta,RBC MSE,insufficient_unique_h,1,0.0002
+500,shrinking_delta,RBC MSE,raw_failure,1,0.0002
+750,continuous,Bias-aware/Honest,ok,5000,1.0
+750,continuous,Conventional MSE,ok,5000,1.0
+750,continuous,RBC MSE,ok,5000,1.0
+750,fixed_delta_0.01,Bias-aware/Honest,ok,5000,1.0
+750,fixed_delta_0.01,Conventional MSE,ok,5000,1.0
+750,fixed_delta_0.01,RBC MSE,ok,5000,1.0
+750,fixed_delta_0.015,Bias-aware/Honest,ok,5000,1.0
+750,fixed_delta_0.015,Conventional MSE,ok,5000,1.0
+750,fixed_delta_0.015,RBC MSE,ok,5000,1.0
+750,fixed_delta_0.02,Bias-aware/Honest,ok,5000,1.0
+750,fixed_delta_0.02,Conventional MSE,ok,5000,1.0
+750,fixed_delta_0.02,RBC MSE,ok,5000,1.0
+750,fixed_delta_0.025,Bias-aware/Honest,ok,5000,1.0
+750,fixed_delta_0.025,Conventional MSE,ok,5000,1.0
+750,fixed_delta_0.025,RBC MSE,ok,5000,1.0
+750,fixed_delta_0.03,Bias-aware/Honest,ok,5000,1.0
+750,fixed_delta_0.03,Conventional MSE,ok,5000,1.0
+750,fixed_delta_0.03,RBC MSE,ok,5000,1.0
+750,fixed_delta_0.035,Bias-aware/Honest,ok,5000,1.0
+750,fixed_delta_0.035,Conventional MSE,ok,5000,1.0
+750,fixed_delta_0.035,RBC MSE,ok,5000,1.0
+750,fixed_delta_0.04,Bias-aware/Honest,ok,5000,1.0
+750,fixed_delta_0.04,Conventional MSE,ok,5000,1.0
+750,fixed_delta_0.04,RBC MSE,ok,5000,1.0
+750,fixed_delta_0.045,Bias-aware/Honest,ok,4998,0.9996
+750,fixed_delta_0.045,Bias-aware/Honest,nan_ci,2,0.0004
+750,fixed_delta_0.045,Conventional MSE,ok,4998,0.9996
+750,fixed_delta_0.045,Conventional MSE,nan_ci,2,0.0004
+750,fixed_delta_0.045,RBC MSE,ok,4998,0.9996
+750,fixed_delta_0.045,RBC MSE,insufficient_unique_h,1,0.0002
+750,fixed_delta_0.045,RBC MSE,nan_ci,1,0.0002
+750,fixed_delta_0.05,Bias-aware/Honest,ok,4991,0.9982
+750,fixed_delta_0.05,Bias-aware/Honest,raw_failure,6,0.0012
+750,fixed_delta_0.05,Bias-aware/Honest,nan_ci,3,0.0006
+750,fixed_delta_0.05,Conventional MSE,ok,4991,0.9982
+750,fixed_delta_0.05,Conventional MSE,raw_failure,6,0.0012
+750,fixed_delta_0.05,Conventional MSE,nan_ci,2,0.0004
+750,fixed_delta_0.05,Conventional MSE,insufficient_unique_h,1,0.0002
+750,fixed_delta_0.05,RBC MSE,ok,4991,0.9982
+750,fixed_delta_0.05,RBC MSE,raw_failure,6,0.0012
+750,fixed_delta_0.05,RBC MSE,insufficient_unique_h,2,0.0004
+750,fixed_delta_0.05,RBC MSE,nan_ci,1,0.0002
+750,shrinking_delta,Bias-aware/Honest,ok,5000,1.0
+750,shrinking_delta,Conventional MSE,ok,5000,1.0
+750,shrinking_delta,RBC MSE,ok,5000,1.0
+1000,continuous,Bias-aware/Honest,ok,5000,1.0
+1000,continuous,Conventional MSE,ok,5000,1.0
+1000,continuous,RBC MSE,ok,5000,1.0
+1000,fixed_delta_0.01,Bias-aware/Honest,ok,5000,1.0
+1000,fixed_delta_0.01,Conventional MSE,ok,5000,1.0
+1000,fixed_delta_0.01,RBC MSE,ok,5000,1.0
+1000,fixed_delta_0.015,Bias-aware/Honest,ok,5000,1.0
+1000,fixed_delta_0.015,Conventional MSE,ok,5000,1.0
+1000,fixed_delta_0.015,RBC MSE,ok,5000,1.0
+1000,fixed_delta_0.02,Bias-aware/Honest,ok,5000,1.0
+1000,fixed_delta_0.02,Conventional MSE,ok,5000,1.0
+1000,fixed_delta_0.02,RBC MSE,ok,5000,1.0
+1000,fixed_delta_0.025,Bias-aware/Honest,ok,5000,1.0
+1000,fixed_delta_0.025,Conventional MSE,ok,5000,1.0
+1000,fixed_delta_0.025,RBC MSE,ok,5000,1.0
+1000,fixed_delta_0.03,Bias-aware/Honest,ok,5000,1.0
+1000,fixed_delta_0.03,Conventional MSE,ok,5000,1.0
+1000,fixed_delta_0.03,RBC MSE,ok,5000,1.0
+1000,fixed_delta_0.035,Bias-aware/Honest,ok,5000,1.0
+1000,fixed_delta_0.035,Conventional MSE,ok,5000,1.0
+1000,fixed_delta_0.035,RBC MSE,ok,5000,1.0
+1000,fixed_delta_0.04,Bias-aware/Honest,ok,4999,0.9998
+1000,fixed_delta_0.04,Bias-aware/Honest,nan_ci,1,0.0002
+1000,fixed_delta_0.04,Conventional MSE,ok,4999,0.9998
+1000,fixed_delta_0.04,Conventional MSE,insufficient_unique_h,1,0.0002
+1000,fixed_delta_0.04,RBC MSE,ok,4999,0.9998
+1000,fixed_delta_0.04,RBC MSE,insufficient_unique_h,1,0.0002
+1000,fixed_delta_0.045,Bias-aware/Honest,ok,4993,0.9986
+1000,fixed_delta_0.045,Bias-aware/Honest,raw_failure,5,0.001
+1000,fixed_delta_0.045,Bias-aware/Honest,nan_ci,2,0.0004
+1000,fixed_delta_0.045,Conventional MSE,ok,4993,0.9986
+1000,fixed_delta_0.045,Conventional MSE,raw_failure,5,0.001
+1000,fixed_delta_0.045,Conventional MSE,insufficient_unique_h,1,0.0002
+1000,fixed_delta_0.045,Conventional MSE,nan_ci,1,0.0002
+1000,fixed_delta_0.045,RBC MSE,ok,4993,0.9986
+1000,fixed_delta_0.045,RBC MSE,raw_failure,5,0.001
+1000,fixed_delta_0.045,RBC MSE,insufficient_unique_h,1,0.0002
+1000,fixed_delta_0.045,RBC MSE,nan_ci,1,0.0002
+1000,fixed_delta_0.05,Bias-aware/Honest,ok,4966,0.9932
+1000,fixed_delta_0.05,Bias-aware/Honest,raw_failure,22,0.0044
+1000,fixed_delta_0.05,Bias-aware/Honest,nan_ci,12,0.0024
+1000,fixed_delta_0.05,Conventional MSE,ok,4966,0.9932
+1000,fixed_delta_0.05,Conventional MSE,raw_failure,22,0.0044
+1000,fixed_delta_0.05,Conventional MSE,insufficient_unique_h,6,0.0012
+1000,fixed_delta_0.05,Conventional MSE,nan_ci,6,0.0012
+1000,fixed_delta_0.05,RBC MSE,ok,4966,0.9932
+1000,fixed_delta_0.05,RBC MSE,raw_failure,22,0.0044
+1000,fixed_delta_0.05,RBC MSE,nan_ci,7,0.0014
+1000,fixed_delta_0.05,RBC MSE,insufficient_unique_h,5,0.001
+1000,shrinking_delta,Bias-aware/Honest,ok,5000,1.0
+1000,shrinking_delta,Conventional MSE,ok,5000,1.0
+1000,shrinking_delta,RBC MSE,ok,5000,1.0
+1500,continuous,Bias-aware/Honest,ok,5000,1.0
+1500,continuous,Conventional MSE,ok,5000,1.0
+1500,continuous,RBC MSE,ok,5000,1.0
+1500,fixed_delta_0.01,Bias-aware/Honest,ok,5000,1.0
+1500,fixed_delta_0.01,Conventional MSE,ok,5000,1.0
+1500,fixed_delta_0.01,RBC MSE,ok,5000,1.0
+1500,fixed_delta_0.015,Bias-aware/Honest,ok,5000,1.0
+1500,fixed_delta_0.015,Conventional MSE,ok,5000,1.0
+1500,fixed_delta_0.015,RBC MSE,ok,5000,1.0
+1500,fixed_delta_0.02,Bias-aware/Honest,ok,5000,1.0
+1500,fixed_delta_0.02,Conventional MSE,ok,5000,1.0
+1500,fixed_delta_0.02,RBC MSE,ok,5000,1.0
+1500,fixed_delta_0.025,Bias-aware/Honest,ok,5000,1.0
+1500,fixed_delta_0.025,Conventional MSE,ok,5000,1.0
+1500,fixed_delta_0.025,RBC MSE,ok,5000,1.0
+1500,fixed_delta_0.03,Bias-aware/Honest,ok,5000,1.0
+1500,fixed_delta_0.03,Conventional MSE,ok,5000,1.0
+1500,fixed_delta_0.03,RBC MSE,ok,5000,1.0
+1500,fixed_delta_0.035,Bias-aware/Honest,ok,5000,1.0
+1500,fixed_delta_0.035,Conventional MSE,ok,5000,1.0
+1500,fixed_delta_0.035,RBC MSE,ok,5000,1.0
+1500,fixed_delta_0.04,Bias-aware/Honest,ok,4999,0.9998
+1500,fixed_delta_0.04,Bias-aware/Honest,nan_ci,1,0.0002
+1500,fixed_delta_0.04,Conventional MSE,ok,4999,0.9998
+1500,fixed_delta_0.04,Conventional MSE,insufficient_unique_h,1,0.0002
+1500,fixed_delta_0.04,RBC MSE,ok,4999,0.9998
+1500,fixed_delta_0.04,RBC MSE,nan_ci,1,0.0002
+1500,fixed_delta_0.045,Bias-aware/Honest,ok,4961,0.9922
+1500,fixed_delta_0.045,Bias-aware/Honest,raw_failure,24,0.0048
+1500,fixed_delta_0.045,Bias-aware/Honest,nan_ci,15,0.003
+1500,fixed_delta_0.045,Conventional MSE,ok,4961,0.9922
+1500,fixed_delta_0.045,Conventional MSE,raw_failure,24,0.0048
+1500,fixed_delta_0.045,Conventional MSE,nan_ci,10,0.002
+1500,fixed_delta_0.045,Conventional MSE,insufficient_unique_h,5,0.001
+1500,fixed_delta_0.045,RBC MSE,ok,4961,0.9922
+1500,fixed_delta_0.045,RBC MSE,raw_failure,24,0.0048
+1500,fixed_delta_0.045,RBC MSE,insufficient_unique_h,8,0.0016
+1500,fixed_delta_0.045,RBC MSE,nan_ci,7,0.0014
+1500,fixed_delta_0.05,Bias-aware/Honest,ok,4733,0.9466
+1500,fixed_delta_0.05,Bias-aware/Honest,raw_failure,159,0.0318
+1500,fixed_delta_0.05,Bias-aware/Honest,nan_ci,108,0.0216
+1500,fixed_delta_0.05,Conventional MSE,ok,4733,0.9466
+1500,fixed_delta_0.05,Conventional MSE,raw_failure,159,0.0318
+1500,fixed_delta_0.05,Conventional MSE,insufficient_unique_h,55,0.011
+1500,fixed_delta_0.05,Conventional MSE,nan_ci,53,0.0106
+1500,fixed_delta_0.05,RBC MSE,ok,4733,0.9466
+1500,fixed_delta_0.05,RBC MSE,raw_failure,159,0.0318
+1500,fixed_delta_0.05,RBC MSE,nan_ci,60,0.012
+1500,fixed_delta_0.05,RBC MSE,insufficient_unique_h,48,0.0096
+1500,shrinking_delta,Bias-aware/Honest,ok,5000,1.0
+1500,shrinking_delta,Conventional MSE,ok,5000,1.0
+1500,shrinking_delta,RBC MSE,ok,5000,1.0
+2000,continuous,Bias-aware/Honest,ok,5000,1.0
+2000,continuous,Conventional MSE,ok,5000,1.0
+2000,continuous,RBC MSE,ok,5000,1.0
+2000,fixed_delta_0.01,Bias-aware/Honest,ok,5000,1.0
+2000,fixed_delta_0.01,Conventional MSE,ok,5000,1.0
+2000,fixed_delta_0.01,RBC MSE,ok,5000,1.0
+2000,fixed_delta_0.015,Bias-aware/Honest,ok,5000,1.0
+2000,fixed_delta_0.015,Conventional MSE,ok,5000,1.0
+2000,fixed_delta_0.015,RBC MSE,ok,5000,1.0
+2000,fixed_delta_0.02,Bias-aware/Honest,ok,5000,1.0
+2000,fixed_delta_0.02,Conventional MSE,ok,5000,1.0
+2000,fixed_delta_0.02,RBC MSE,ok,5000,1.0
+2000,fixed_delta_0.025,Bias-aware/Honest,ok,5000,1.0
+2000,fixed_delta_0.025,Conventional MSE,ok,5000,1.0
+2000,fixed_delta_0.025,RBC MSE,ok,5000,1.0
+2000,fixed_delta_0.03,Bias-aware/Honest,ok,5000,1.0
+2000,fixed_delta_0.03,Conventional MSE,ok,5000,1.0
+2000,fixed_delta_0.03,RBC MSE,ok,5000,1.0
+2000,fixed_delta_0.035,Bias-aware/Honest,ok,5000,1.0
+2000,fixed_delta_0.035,Conventional MSE,ok,5000,1.0
+2000,fixed_delta_0.035,RBC MSE,ok,5000,1.0
+2000,fixed_delta_0.04,Bias-aware/Honest,ok,4996,0.9992
+2000,fixed_delta_0.04,Bias-aware/Honest,nan_ci,2,0.0004
+2000,fixed_delta_0.04,Bias-aware/Honest,raw_failure,2,0.0004
+2000,fixed_delta_0.04,Conventional MSE,ok,4996,0.9992
+2000,fixed_delta_0.04,Conventional MSE,raw_failure,2,0.0004
+2000,fixed_delta_0.04,Conventional MSE,insufficient_unique_h,1,0.0002
+2000,fixed_delta_0.04,Conventional MSE,nan_ci,1,0.0002
+2000,fixed_delta_0.04,RBC MSE,ok,4996,0.9992
+2000,fixed_delta_0.04,RBC MSE,raw_failure,2,0.0004
+2000,fixed_delta_0.04,RBC MSE,insufficient_unique_h,1,0.0002
+2000,fixed_delta_0.04,RBC MSE,nan_ci,1,0.0002
+2000,fixed_delta_0.045,Bias-aware/Honest,ok,4832,0.9664
+2000,fixed_delta_0.045,Bias-aware/Honest,raw_failure,104,0.0208
+2000,fixed_delta_0.045,Bias-aware/Honest,nan_ci,64,0.0128
+2000,fixed_delta_0.045,Conventional MSE,ok,4832,0.9664
+2000,fixed_delta_0.045,Conventional MSE,raw_failure,104,0.0208
+2000,fixed_delta_0.045,Conventional MSE,nan_ci,33,0.0066
+2000,fixed_delta_0.045,Conventional MSE,insufficient_unique_h,31,0.0062
+2000,fixed_delta_0.045,RBC MSE,ok,4832,0.9664
+2000,fixed_delta_0.045,RBC MSE,raw_failure,104,0.0208
+2000,fixed_delta_0.045,RBC MSE,nan_ci,37,0.0074
+2000,fixed_delta_0.045,RBC MSE,insufficient_unique_h,27,0.0054
+2000,fixed_delta_0.05,Bias-aware/Honest,ok,4040,0.808
+2000,fixed_delta_0.05,Bias-aware/Honest,raw_failure,533,0.1066
+2000,fixed_delta_0.05,Bias-aware/Honest,nan_ci,427,0.0854
+2000,fixed_delta_0.05,Conventional MSE,ok,4040,0.808
+2000,fixed_delta_0.05,Conventional MSE,raw_failure,533,0.1066
+2000,fixed_delta_0.05,Conventional MSE,nan_ci,215,0.043
+2000,fixed_delta_0.05,Conventional MSE,insufficient_unique_h,212,0.0424
+2000,fixed_delta_0.05,RBC MSE,ok,4040,0.808
+2000,fixed_delta_0.05,RBC MSE,raw_failure,533,0.1066
+2000,fixed_delta_0.05,RBC MSE,insufficient_unique_h,226,0.0452
+2000,fixed_delta_0.05,RBC MSE,nan_ci,201,0.0402
+2000,shrinking_delta,Bias-aware/Honest,ok,5000,1.0
+2000,shrinking_delta,Conventional MSE,ok,5000,1.0
+2000,shrinking_delta,RBC MSE,ok,5000,1.0
+3000,continuous,Bias-aware/Honest,ok,5000,1.0
+3000,continuous,Conventional MSE,ok,5000,1.0
+3000,continuous,RBC MSE,ok,5000,1.0
+3000,fixed_delta_0.01,Bias-aware/Honest,ok,5000,1.0
+3000,fixed_delta_0.01,Conventional MSE,ok,5000,1.0
+3000,fixed_delta_0.01,RBC MSE,ok,5000,1.0
+3000,fixed_delta_0.015,Bias-aware/Honest,ok,5000,1.0
+3000,fixed_delta_0.015,Conventional MSE,ok,5000,1.0
+3000,fixed_delta_0.015,RBC MSE,ok,5000,1.0
+3000,fixed_delta_0.02,Bias-aware/Honest,ok,5000,1.0
+3000,fixed_delta_0.02,Conventional MSE,ok,5000,1.0
+3000,fixed_delta_0.02,RBC MSE,ok,5000,1.0
+3000,fixed_delta_0.025,Bias-aware/Honest,ok,5000,1.0
+3000,fixed_delta_0.025,Conventional MSE,ok,5000,1.0
+3000,fixed_delta_0.025,RBC MSE,ok,5000,1.0
+3000,fixed_delta_0.03,Bias-aware/Honest,ok,5000,1.0
+3000,fixed_delta_0.03,Conventional MSE,ok,5000,1.0
+3000,fixed_delta_0.03,RBC MSE,ok,5000,1.0
+3000,fixed_delta_0.035,Bias-aware/Honest,ok,4999,0.9998
+3000,fixed_delta_0.035,Bias-aware/Honest,raw_failure,1,0.0002
+3000,fixed_delta_0.035,Conventional MSE,ok,4999,0.9998
+3000,fixed_delta_0.035,Conventional MSE,raw_failure,1,0.0002
+3000,fixed_delta_0.035,RBC MSE,ok,4999,0.9998
+3000,fixed_delta_0.035,RBC MSE,raw_failure,1,0.0002
+3000,fixed_delta_0.04,Bias-aware/Honest,ok,4924,0.9848
+3000,fixed_delta_0.04,Bias-aware/Honest,raw_failure,51,0.0102
+3000,fixed_delta_0.04,Bias-aware/Honest,nan_ci,25,0.005
+3000,fixed_delta_0.04,Conventional MSE,ok,4924,0.9848
+3000,fixed_delta_0.04,Conventional MSE,raw_failure,51,0.0102
+3000,fixed_delta_0.04,Conventional MSE,nan_ci,14,0.0028
+3000,fixed_delta_0.04,Conventional MSE,insufficient_unique_h,11,0.0022
+3000,fixed_delta_0.04,RBC MSE,ok,4924,0.9848
+3000,fixed_delta_0.04,RBC MSE,raw_failure,51,0.0102
+3000,fixed_delta_0.04,RBC MSE,nan_ci,14,0.0028
+3000,fixed_delta_0.04,RBC MSE,insufficient_unique_h,11,0.0022
+3000,fixed_delta_0.045,Bias-aware/Honest,ok,3903,0.7806
+3000,fixed_delta_0.045,Bias-aware/Honest,raw_failure,656,0.1312
+3000,fixed_delta_0.045,Bias-aware/Honest,nan_ci,441,0.0882
+3000,fixed_delta_0.045,Conventional MSE,ok,3903,0.7806
+3000,fixed_delta_0.045,Conventional MSE,raw_failure,656,0.1312
+3000,fixed_delta_0.045,Conventional MSE,nan_ci,230,0.046
+3000,fixed_delta_0.045,Conventional MSE,insufficient_unique_h,211,0.0422
+3000,fixed_delta_0.045,RBC MSE,ok,3903,0.7806
+3000,fixed_delta_0.045,RBC MSE,raw_failure,656,0.1312
+3000,fixed_delta_0.045,RBC MSE,insufficient_unique_h,244,0.0488
+3000,fixed_delta_0.045,RBC MSE,nan_ci,197,0.0394
+3000,fixed_delta_0.05,Bias-aware/Honest,raw_failure,1881,0.3762
+3000,fixed_delta_0.05,Bias-aware/Honest,ok,1689,0.3378
+3000,fixed_delta_0.05,Bias-aware/Honest,nan_ci,1430,0.286
+3000,fixed_delta_0.05,Conventional MSE,raw_failure,1881,0.3762
+3000,fixed_delta_0.05,Conventional MSE,ok,1689,0.3378
+3000,fixed_delta_0.05,Conventional MSE,insufficient_unique_h,733,0.1466
+3000,fixed_delta_0.05,Conventional MSE,nan_ci,697,0.1394
+3000,fixed_delta_0.05,RBC MSE,raw_failure,1881,0.3762
+3000,fixed_delta_0.05,RBC MSE,ok,1689,0.3378
+3000,fixed_delta_0.05,RBC MSE,nan_ci,735,0.147
+3000,fixed_delta_0.05,RBC MSE,insufficient_unique_h,695,0.139
+3000,shrinking_delta,Bias-aware/Honest,ok,5000,1.0
+3000,shrinking_delta,Conventional MSE,ok,5000,1.0
+3000,shrinking_delta,RBC MSE,ok,5000,1.0
+4000,continuous,Bias-aware/Honest,ok,5000,1.0
+4000,continuous,Conventional MSE,ok,5000,1.0
+4000,continuous,RBC MSE,ok,5000,1.0
+4000,fixed_delta_0.01,Bias-aware/Honest,ok,5000,1.0
+4000,fixed_delta_0.01,Conventional MSE,ok,5000,1.0
+4000,fixed_delta_0.01,RBC MSE,ok,5000,1.0
+4000,fixed_delta_0.015,Bias-aware/Honest,ok,5000,1.0
+4000,fixed_delta_0.015,Conventional MSE,ok,5000,1.0
+4000,fixed_delta_0.015,RBC MSE,ok,5000,1.0
+4000,fixed_delta_0.02,Bias-aware/Honest,ok,5000,1.0
+4000,fixed_delta_0.02,Conventional MSE,ok,5000,1.0
+4000,fixed_delta_0.02,RBC MSE,ok,5000,1.0
+4000,fixed_delta_0.025,Bias-aware/Honest,ok,5000,1.0
+4000,fixed_delta_0.025,Conventional MSE,ok,5000,1.0
+4000,fixed_delta_0.025,RBC MSE,ok,5000,1.0
+4000,fixed_delta_0.03,Bias-aware/Honest,ok,5000,1.0
+4000,fixed_delta_0.03,Conventional MSE,ok,5000,1.0
+4000,fixed_delta_0.03,RBC MSE,ok,5000,1.0
+4000,fixed_delta_0.035,Bias-aware/Honest,ok,4993,0.9986
+4000,fixed_delta_0.035,Bias-aware/Honest,raw_failure,4,0.0008
+4000,fixed_delta_0.035,Bias-aware/Honest,nan_ci,3,0.0006
+4000,fixed_delta_0.035,Conventional MSE,ok,4993,0.9986
+4000,fixed_delta_0.035,Conventional MSE,raw_failure,4,0.0008
+4000,fixed_delta_0.035,Conventional MSE,insufficient_unique_h,2,0.0004
+4000,fixed_delta_0.035,Conventional MSE,nan_ci,1,0.0002
+4000,fixed_delta_0.035,RBC MSE,ok,4993,0.9986
+4000,fixed_delta_0.035,RBC MSE,raw_failure,4,0.0008
+4000,fixed_delta_0.035,RBC MSE,insufficient_unique_h,2,0.0004
+4000,fixed_delta_0.035,RBC MSE,nan_ci,1,0.0002
+4000,fixed_delta_0.04,Bias-aware/Honest,ok,4652,0.9304
+4000,fixed_delta_0.04,Bias-aware/Honest,raw_failure,195,0.039
+4000,fixed_delta_0.04,Bias-aware/Honest,nan_ci,153,0.0306
+4000,fixed_delta_0.04,Conventional MSE,ok,4652,0.9304
+4000,fixed_delta_0.04,Conventional MSE,raw_failure,195,0.039
+4000,fixed_delta_0.04,Conventional MSE,nan_ci,88,0.0176
+4000,fixed_delta_0.04,Conventional MSE,insufficient_unique_h,65,0.013
+4000,fixed_delta_0.04,RBC MSE,ok,4652,0.9304
+4000,fixed_delta_0.04,RBC MSE,raw_failure,195,0.039
+4000,fixed_delta_0.04,RBC MSE,insufficient_unique_h,86,0.0172
+4000,fixed_delta_0.04,RBC MSE,nan_ci,67,0.0134
+4000,fixed_delta_0.045,Bias-aware/Honest,ok,2255,0.451
+4000,fixed_delta_0.045,Bias-aware/Honest,raw_failure,1783,0.3566
+4000,fixed_delta_0.045,Bias-aware/Honest,nan_ci,962,0.1924
+4000,fixed_delta_0.045,Conventional MSE,ok,2255,0.451
+4000,fixed_delta_0.045,Conventional MSE,raw_failure,1783,0.3566
+4000,fixed_delta_0.045,Conventional MSE,nan_ci,496,0.0992
+4000,fixed_delta_0.045,Conventional MSE,insufficient_unique_h,466,0.0932
+4000,fixed_delta_0.045,RBC MSE,ok,2255,0.451
+4000,fixed_delta_0.045,RBC MSE,raw_failure,1783,0.3566
+4000,fixed_delta_0.045,RBC MSE,insufficient_unique_h,489,0.0978
+4000,fixed_delta_0.045,RBC MSE,nan_ci,473,0.0946
+4000,fixed_delta_0.05,Bias-aware/Honest,raw_failure,2701,0.5402
+4000,fixed_delta_0.05,Bias-aware/Honest,nan_ci,1875,0.375
+4000,fixed_delta_0.05,Bias-aware/Honest,ok,424,0.0848
+4000,fixed_delta_0.05,Conventional MSE,raw_failure,2701,0.5402
+4000,fixed_delta_0.05,Conventional MSE,insufficient_unique_h,990,0.198
+4000,fixed_delta_0.05,Conventional MSE,nan_ci,885,0.177
+4000,fixed_delta_0.05,Conventional MSE,ok,424,0.0848
+4000,fixed_delta_0.05,RBC MSE,raw_failure,2701,0.5402
+4000,fixed_delta_0.05,RBC MSE,insufficient_unique_h,975,0.195
+4000,fixed_delta_0.05,RBC MSE,nan_ci,900,0.18
+4000,fixed_delta_0.05,RBC MSE,ok,424,0.0848
+4000,shrinking_delta,Bias-aware/Honest,ok,5000,1.0
+4000,shrinking_delta,Conventional MSE,ok,5000,1.0
+4000,shrinking_delta,RBC MSE,ok,5000,1.0
+5000,continuous,Bias-aware/Honest,ok,5000,1.0
+5000,continuous,Conventional MSE,ok,5000,1.0
+5000,continuous,RBC MSE,ok,5000,1.0
+5000,fixed_delta_0.01,Bias-aware/Honest,ok,5000,1.0
+5000,fixed_delta_0.01,Conventional MSE,ok,5000,1.0
+5000,fixed_delta_0.01,RBC MSE,ok,5000,1.0
+5000,fixed_delta_0.015,Bias-aware/Honest,ok,5000,1.0
+5000,fixed_delta_0.015,Conventional MSE,ok,5000,1.0
+5000,fixed_delta_0.015,RBC MSE,ok,5000,1.0
+5000,fixed_delta_0.02,Bias-aware/Honest,ok,5000,1.0
+5000,fixed_delta_0.02,Conventional MSE,ok,5000,1.0
+5000,fixed_delta_0.02,RBC MSE,ok,5000,1.0
+5000,fixed_delta_0.025,Bias-aware/Honest,ok,5000,1.0
+5000,fixed_delta_0.025,Conventional MSE,ok,5000,1.0
+5000,fixed_delta_0.025,RBC MSE,ok,5000,1.0
+5000,fixed_delta_0.03,Bias-aware/Honest,ok,5000,1.0
+5000,fixed_delta_0.03,Conventional MSE,ok,5000,1.0
+5000,fixed_delta_0.03,RBC MSE,ok,5000,1.0
+5000,fixed_delta_0.035,Bias-aware/Honest,ok,4962,0.9924
+5000,fixed_delta_0.035,Bias-aware/Honest,raw_failure,22,0.0044
+5000,fixed_delta_0.035,Bias-aware/Honest,nan_ci,16,0.0032
+5000,fixed_delta_0.035,Conventional MSE,ok,4962,0.9924
+5000,fixed_delta_0.035,Conventional MSE,raw_failure,22,0.0044
+5000,fixed_delta_0.035,Conventional MSE,nan_ci,10,0.002
+5000,fixed_delta_0.035,Conventional MSE,insufficient_unique_h,6,0.0012
+5000,fixed_delta_0.035,RBC MSE,ok,4962,0.9924
+5000,fixed_delta_0.035,RBC MSE,raw_failure,22,0.0044
+5000,fixed_delta_0.035,RBC MSE,insufficient_unique_h,9,0.0018
+5000,fixed_delta_0.035,RBC MSE,nan_ci,7,0.0014
+5000,fixed_delta_0.04,Bias-aware/Honest,ok,4014,0.8028
+5000,fixed_delta_0.04,Bias-aware/Honest,raw_failure,586,0.1172
+5000,fixed_delta_0.04,Bias-aware/Honest,nan_ci,400,0.08
+5000,fixed_delta_0.04,Conventional MSE,ok,4014,0.8028
+5000,fixed_delta_0.04,Conventional MSE,raw_failure,586,0.1172
+5000,fixed_delta_0.04,Conventional MSE,nan_ci,213,0.0426
+5000,fixed_delta_0.04,Conventional MSE,insufficient_unique_h,187,0.0374
+5000,fixed_delta_0.04,RBC MSE,ok,4014,0.8028
+5000,fixed_delta_0.04,RBC MSE,raw_failure,586,0.1172
+5000,fixed_delta_0.04,RBC MSE,insufficient_unique_h,207,0.0414
+5000,fixed_delta_0.04,RBC MSE,nan_ci,193,0.0386
+5000,fixed_delta_0.045,Bias-aware/Honest,raw_failure,2651,0.5302
+5000,fixed_delta_0.045,Bias-aware/Honest,nan_ci,1381,0.2762
+5000,fixed_delta_0.045,Bias-aware/Honest,ok,968,0.1936
+5000,fixed_delta_0.045,Conventional MSE,raw_failure,2651,0.5302
+5000,fixed_delta_0.045,Conventional MSE,ok,968,0.1936
+5000,fixed_delta_0.045,Conventional MSE,insufficient_unique_h,710,0.142
+5000,fixed_delta_0.045,Conventional MSE,nan_ci,671,0.1342
+5000,fixed_delta_0.045,RBC MSE,raw_failure,2651,0.5302
+5000,fixed_delta_0.045,RBC MSE,ok,968,0.1936
+5000,fixed_delta_0.045,RBC MSE,nan_ci,709,0.1418
+5000,fixed_delta_0.045,RBC MSE,insufficient_unique_h,672,0.1344
+5000,fixed_delta_0.05,Bias-aware/Honest,raw_failure,3123,0.6246
+5000,fixed_delta_0.05,Bias-aware/Honest,nan_ci,1763,0.3526
+5000,fixed_delta_0.05,Bias-aware/Honest,ok,114,0.0228
+5000,fixed_delta_0.05,Conventional MSE,raw_failure,3123,0.6246
+5000,fixed_delta_0.05,Conventional MSE,nan_ci,908,0.1816
+5000,fixed_delta_0.05,Conventional MSE,insufficient_unique_h,855,0.171
+5000,fixed_delta_0.05,Conventional MSE,ok,114,0.0228
+5000,fixed_delta_0.05,RBC MSE,raw_failure,3123,0.6246
+5000,fixed_delta_0.05,RBC MSE,nan_ci,885,0.177
+5000,fixed_delta_0.05,RBC MSE,insufficient_unique_h,878,0.1756
+5000,fixed_delta_0.05,RBC MSE,ok,114,0.0228
+5000,shrinking_delta,Bias-aware/Honest,ok,5000,1.0
+5000,shrinking_delta,Conventional MSE,ok,5000,1.0
+5000,shrinking_delta,RBC MSE,ok,5000,1.0

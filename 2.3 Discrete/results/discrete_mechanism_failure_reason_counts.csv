@@ -1,0 +1,7 @@
+method,nonusable_reason,count
+Bias-aware/Honest,raw_failure,36356
+Conventional MSE,raw_failure,29626
+Conventional MSE,support_infeasible;length_pathology,6727
+Conventional MSE,support_infeasible,3
+RBC MSE,raw_failure,29573
+RBC MSE,support_infeasible;length_pathology,6783

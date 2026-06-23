@@ -1,0 +1,802 @@
+n,method,regime,scenario,delta,variable,comparison,n_pairs,mean_diff,se_diff
+500,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0018,0.000774255703484886
+500,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.0022,0.0008241163956424561
+500,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.0012,0.0007482138496398998
+500,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,0.0026,0.0008710911318294949
+500,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.0022,0.0009160785119016785
+500,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,0.0028,0.000979093317689866
+500,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,5000,0.0038,0.0009150297568337205
+500,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,5000,0.004,0.000936469644504837
+500,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4998,0.004001600640256103,0.0008930823725664472
+500,Bias-aware/Honest,fixed_delta_0.055,F_delta_0.055,0.055,covered,F_delta_0.055 - continuous,4991,0.004207573632538569,0.0009163259779843227
+500,Bias-aware/Honest,fixed_delta_0.06,F_delta_0.06,0.06,covered,F_delta_0.06 - continuous,4955,0.004036326942482341,0.0009008177112541192
+500,Bias-aware/Honest,fixed_delta_0.065,F_delta_0.065,0.065,covered,F_delta_0.065 - continuous,4865,0.0041109969167523125,0.0009174496953420928
+500,Bias-aware/Honest,fixed_delta_0.07,F_delta_0.07,0.07,covered,F_delta_0.07 - continuous,4668,0.0038560411311053984,0.0009072207631863022
+500,Bias-aware/Honest,fixed_delta_0.075,F_delta_0.075,0.075,covered,F_delta_0.075 - continuous,4285,0.0039673278879813305,0.0009604198084930809
+500,Bias-aware/Honest,fixed_delta_0.08,F_delta_0.08,0.08,covered,F_delta_0.08 - continuous,3694,0.003519220357336221,0.0009744690272292761
+500,Bias-aware/Honest,fixed_delta_0.09,F_delta_0.09,0.09,covered,F_delta_0.09 - continuous,2636,0.00417298937784522,0.0012558138855655954
+500,Bias-aware/Honest,fixed_delta_0.1,F_delta_0.1,0.1,covered,F_delta_0.1 - continuous,2101,0.00475963826749167,0.0015019010352049383
+500,Bias-aware/Honest,fixed_delta_0.12,F_delta_0.12,0.12,covered,F_delta_0.12 - continuous,48,0.020833333333333332,0.020833333333333332
+500,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0500,0.05,covered,S_shrink_delta_0.0500 - continuous,4998,0.004001600640256103,0.0008930823725664472
+500,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,-0.0012,0.00278590456635732
+500,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,-0.0198,0.003341231025378669
+500,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,-0.0258,0.0036646361226706143
+500,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.0422,0.003990866748399487
+500,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,-0.0556,0.00459847335443387
+500,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,-0.0784,0.004993563370482746
+500,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,5000,-0.0964,0.005312913834298665
+500,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,5000,-0.0844,0.005353602545206584
+500,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4998,-0.1332533013205282,0.005919896013511674
+500,Conventional MSE,fixed_delta_0.055,F_delta_0.055,0.055,covered,F_delta_0.055 - continuous,4991,-0.2294129432979363,0.006712970135881843
+500,Conventional MSE,fixed_delta_0.06,F_delta_0.06,0.06,covered,F_delta_0.06 - continuous,4955,-0.3790110998990918,0.007361417368985762
+500,Conventional MSE,fixed_delta_0.065,F_delta_0.065,0.065,covered,F_delta_0.065 - continuous,4865,-0.5321685508735868,0.007466545007107724
+500,Conventional MSE,fixed_delta_0.07,F_delta_0.07,0.07,covered,F_delta_0.07 - continuous,4668,-0.6825192802056556,0.007019649054829344
+500,Conventional MSE,fixed_delta_0.075,F_delta_0.075,0.075,covered,F_delta_0.075 - continuous,4285,-0.7887981330221704,0.006348561162212523
+500,Conventional MSE,fixed_delta_0.08,F_delta_0.08,0.08,covered,F_delta_0.08 - continuous,3694,-0.8340552246886843,0.006133908837921123
+500,Conventional MSE,fixed_delta_0.09,F_delta_0.09,0.09,covered,F_delta_0.09 - continuous,2636,-0.8444613050075872,0.0070602290804809625
+500,Conventional MSE,fixed_delta_0.1,F_delta_0.1,0.1,covered,F_delta_0.1 - continuous,2101,-0.846263683960019,0.007871027680539986
+500,Conventional MSE,fixed_delta_0.12,F_delta_0.12,0.12,covered,F_delta_0.12 - continuous,48,-0.75,0.06316139407998893
+500,Conventional MSE,shrinking_delta,S_shrink_delta_0.0500,0.05,covered,S_shrink_delta_0.0500 - continuous,4998,-0.1332533013205282,0.005919896013511674
+500,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0094,0.002250186807385917
+500,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.0018,0.0026307292044658354
+500,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.0018,0.002891543567861458
+500,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.0068,0.003248516980487327
+500,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,-0.0126,0.0033956669611170886
+500,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,-0.007,0.003503234866649134
+500,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,5000,-0.0092,0.0035644933893366287
+500,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,5000,-0.0084,0.003697109915101912
+500,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4998,-0.011204481792717087,0.00398883553824187
+500,RBC MSE,fixed_delta_0.055,F_delta_0.055,0.055,covered,F_delta_0.055 - continuous,4991,-0.012622720897615708,0.0041754495109298856
+500,RBC MSE,fixed_delta_0.06,F_delta_0.06,0.06,covered,F_delta_0.06 - continuous,4955,-0.019374369323915237,0.004329574251396247
+500,RBC MSE,fixed_delta_0.065,F_delta_0.065,0.065,covered,F_delta_0.065 - continuous,4865,-0.0367934224049332,0.004814110472749254
+500,RBC MSE,fixed_delta_0.07,F_delta_0.07,0.07,covered,F_delta_0.07 - continuous,4668,-0.060197086546700945,0.005343679563380835
+500,RBC MSE,fixed_delta_0.075,F_delta_0.075,0.075,covered,F_delta_0.075 - continuous,4285,-0.10501750291715285,0.006231119341540904
+500,RBC MSE,fixed_delta_0.08,F_delta_0.08,0.08,covered,F_delta_0.08 - continuous,3694,-0.15728207904710342,0.007462078993463456
+500,RBC MSE,fixed_delta_0.09,F_delta_0.09,0.09,covered,F_delta_0.09 - continuous,2636,-0.3357359635811836,0.010348718681894182
+500,RBC MSE,fixed_delta_0.1,F_delta_0.1,0.1,covered,F_delta_0.1 - continuous,2101,-0.546882436934793,0.011687010919748775
+500,RBC MSE,fixed_delta_0.12,F_delta_0.12,0.12,covered,F_delta_0.12 - continuous,48,-0.8541666666666666,0.05148145136372291
+500,RBC MSE,shrinking_delta,S_shrink_delta_0.0500,0.05,covered,S_shrink_delta_0.0500 - continuous,4998,-0.011204481792717087,0.00398883553824187
+750,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0004,0.0005657137141711169
+750,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.0016,0.0007480641148885546
+750,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.0016,0.0008483112202401174
+750,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,0.0032,0.0008933709321018147
+750,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.0032,0.0008474052272223867
+750,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,0.0034,0.0009153445095231756
+750,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,5000,0.0042,0.0009146799045926248
+750,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,4998,0.004201680672268907,0.0009150451873959143
+750,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4991,0.004207573632538569,0.0009163259779843226
+750,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0408,0.0408248290463863,covered,S_shrink_delta_0.0408 - continuous,5000,0.0042,0.0009146799045926248
+750,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,-0.0098,0.002717033024033889
+750,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,-0.0196,0.003287146036581454
+750,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,-0.0238,0.003590165714555749
+750,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.0428,0.0041421085708468015
+750,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,-0.0472,0.004440537768686921
+750,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,-0.081,0.005084581653795996
+750,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,5000,-0.0692,0.005269518532571359
+750,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,4998,-0.1014405762304922,0.005643990795619263
+750,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4991,-0.2175916649969946,0.006705109881001045
+750,Conventional MSE,shrinking_delta,S_shrink_delta_0.0408,0.0408248290463863,covered,S_shrink_delta_0.0408 - continuous,5000,-0.0672,0.005205982371319567
+750,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0072,0.0023131584771537133
+750,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,-0.0054,0.002552542084710621
+750,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,-0.0046,0.0028350265386932476
+750,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.0036,0.003072343707851033
+750,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,-0.0008,0.0034179245810415917
+750,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,-0.0054,0.0037359014162419188
+750,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,5000,-0.0062,0.003892986394609377
+750,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,4998,-0.005202080832332933,0.00396109534682197
+750,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4991,-0.006411540773392106,0.004105579682358252
+750,RBC MSE,shrinking_delta,S_shrink_delta_0.0408,0.0408248290463863,covered,S_shrink_delta_0.0408 - continuous,5000,-0.006,0.003959284681231877
+1000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0004,0.0006324934858177753
+1000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.0012,0.0007998999737427166
+1000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.0024,0.0009793057785807211
+1000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,0.004,0.0009782593716799529
+1000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.0034,0.0009153445095231756
+1000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,0.0036,0.0009367942766175188
+1000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4999,0.004400880176035207,0.0009362975740656162
+1000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,4993,0.004406168636090527,0.0009374203293113829
+1000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4966,0.004430124848973017,0.0009425062304943935
+1000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0354,0.0353553390593273,covered,S_shrink_delta_0.0354 - continuous,5000,0.004,0.000936469644504837
+1000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,-0.0062,0.002862507779929695
+1000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,-0.0222,0.003385812272549822
+1000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,-0.0316,0.0038422962728204115
+1000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.0404,0.004279863484538877
+1000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,-0.0568,0.004808261211204633
+1000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,-0.0788,0.0052501071155686896
+1000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4999,-0.06941388277655532,0.005467583524488877
+1000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,4993,-0.16182655718005207,0.006280765986127035
+1000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4966,-0.3099073701167942,0.007266934963405667
+1000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0354,0.0353553390593273,covered,S_shrink_delta_0.0354 - continuous,5000,-0.0768,0.005217834527793296
+1000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0002,0.0022893318256735104
+1000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.0016,0.0025141106082330754
+1000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.0018,0.002946368649311136
+1000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,0.0028,0.003298576681179979
+1000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.0096,0.003438594594679243
+1000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,0.0044,0.003784044370559055
+1000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4999,0.00640128025605121,0.0038263023330300677
+1000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,4993,0.006408972561586221,0.004103935385131853
+1000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4966,-0.0012082158679017317,0.00442137416425484
+1000,RBC MSE,shrinking_delta,S_shrink_delta_0.0354,0.0353553390593273,covered,S_shrink_delta_0.0354 - continuous,5000,0.0042,0.0036822797064817543
+1500,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0004,0.00039999999999999996
+1500,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.001,0.0005998933025087702
+1500,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.0014,0.0006630957240005681
+1500,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,0.0028,0.0008476884540578742
+1500,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.0028,0.0008936395908550989
+1500,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,0.003,0.0008708338936525537
+1500,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4999,0.0034006801360272052,0.0008234648382680784
+1500,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,4961,0.0036283007458173754,0.0008537318669867754
+1500,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4733,0.002957954785548278,0.0007894600069041128
+1500,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0289,0.0288675134594812,covered,S_shrink_delta_0.0289 - continuous,5000,0.003,0.0008708338936525535
+1500,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,-0.012,0.002851811102670207
+1500,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,-0.0188,0.003312326418283719
+1500,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,-0.0278,0.003822087606365682
+1500,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.0336,0.004235303478986106
+1500,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,-0.0814,0.005075427074837979
+1500,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,-0.0576,0.005120712092909314
+1500,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4999,-0.1250250050010002,0.005808150561406991
+1500,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,4961,-0.2840153194920379,0.007060986795684415
+1500,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4733,-0.4988379463342489,0.007616486459505189
+1500,Conventional MSE,shrinking_delta,S_shrink_delta_0.0289,0.0288675134594812,covered,S_shrink_delta_0.0289 - continuous,5000,-0.0728,0.00491374205389278
+1500,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0022,0.002218110908678968
+1500,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.0004,0.002332607170365865
+1500,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,-0.0012,0.002713150242217959
+1500,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,0.0014,0.003206503443451539
+1500,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.001,0.003340962796333011
+1500,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,0.0034,0.0036055912216461147
+1500,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4999,0.005001000200040008,0.0037367600817118105
+1500,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,4961,0.00020157226365652087,0.004026807662794436
+1500,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4733,-0.006338474540460596,0.00436030861915015
+1500,RBC MSE,shrinking_delta,S_shrink_delta_0.0289,0.0288675134594812,covered,S_shrink_delta_0.0289 - continuous,5000,0.0028,0.003382413360905022
+2000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0026,0.0007738008487658242
+2000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.002,0.0006318859517121696
+2000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.003,0.0008236113568506852
+2000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,0.0032,0.0008474052272223868
+2000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.004,0.0009782593716799529
+2000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,0.0042,0.0009146799045926248
+2000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4996,0.004403522818254604,0.0009368586153063956
+2000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,4832,0.0037251655629139072,0.0008764837146329205
+2000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4040,0.0029702970297029703,0.0008562824879950071
+2000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0250,0.025,covered,S_shrink_delta_0.0250 - continuous,5000,0.0032,0.0008474052272223868
+2000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,-0.0146,0.0028703685831545454
+2000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,-0.0286,0.003340455018099419
+2000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,-0.0408,0.0040484997307662016
+2000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.053,0.004431944090992703
+2000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,-0.091,0.005183548382601146
+2000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,-0.0798,0.005258509521192949
+2000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4996,-0.20596477181745396,0.00642157948110159
+2000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,4832,-0.4103890728476821,0.007477497839449042
+2000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4040,-0.6896039603960396,0.007454514672913966
+2000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0250,0.025,covered,S_shrink_delta_0.0250 - continuous,5000,-0.053,0.004431944090992703
+2000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0014,0.0021634565188193094
+2000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,-0.0012,0.0026535109240485156
+2000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,-0.0014,0.002863782158204414
+2000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,0.0032,0.003085426384017975
+2000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.0016,0.003475903390613176
+2000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,5000,0.0058,0.0036491005997419976
+2000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4996,0.0014011208967173738,0.0039175528592607116
+2000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,4832,-0.004552980132450331,0.004220971231576672
+2000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,4040,-0.031435643564356436,0.005186906823120876
+2000,RBC MSE,shrinking_delta,S_shrink_delta_0.0250,0.025,covered,S_shrink_delta_0.0250 - continuous,5000,0.0032,0.003085426384017975
+3000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0,0.0006325187870752936
+3000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.0014,0.0006630957240005681
+3000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.002,0.0006923119666536426
+3000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,0.0014,0.0007744210389633781
+3000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.0022,0.0007205108098879802
+3000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,4999,0.0028005601120224045,0.0007475071249004797
+3000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4924,0.002437043054427295,0.0007027273231867625
+3000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,3903,0.002818344862925954,0.0008486733692885099
+3000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,1689,0.002960331557134399,0.0013223309866572115
+3000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0204,0.0204124145231931,covered,S_shrink_delta_0.0204 - continuous,5000,0.0022,0.0007205108098879802
+3000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,-0.0164,0.0030113155936103515
+3000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,-0.0338,0.0036185813278362604
+3000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,-0.04,0.004147703061712305
+3000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.087,0.004871441900427208
+3000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,-0.0572,0.00493867493382794
+3000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,4999,-0.15383076615323066,0.006057241682811978
+3000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4924,-0.3440292445166531,0.007201628987318804
+3000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,3903,-0.665641813989239,0.007698742753445105
+3000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,1689,-0.7969212551805802,0.009791601253513811
+3000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0204,0.0204124145231931,covered,S_shrink_delta_0.0204 - continuous,5000,-0.0384,0.004033403236515494
+3000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.006,0.002115111046481435
+3000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.0036,0.002481660679453496
+3000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.0034,0.002835365207371325
+3000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.002,0.0032126724471770486
+3000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.002,0.003429511963889627
+3000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,4999,-0.0010002000400080016,0.0036397455335093714
+3000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4924,0.0022339561332250205,0.0038802336029015753
+3000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,3903,-0.01614142966948501,0.0048347249962112935
+3000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,1689,-0.1521610420367081,0.010724229376637272
+3000,RBC MSE,shrinking_delta,S_shrink_delta_0.0204,0.0204124145231931,covered,S_shrink_delta_0.0204 - continuous,5000,0.0054,0.0028205955314135997
+4000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.001,0.0004470346384717841
+4000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.0006,0.0005291351403936047
+4000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.002,0.0006923119666536426
+4000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,0.0018,0.0007207328847626112
+4000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.0024,0.0006920576484352669
+4000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,4993,0.0022030843180452634,0.0006635892619990123
+4000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4652,0.001934651762682717,0.0006443290626104828
+4000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,2255,0.003547671840354767,0.001252342235895017
+4000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,424,0.007075471698113208,0.004075356776608486
+4000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0177,0.0176776695296636,covered,S_shrink_delta_0.0177 - continuous,5000,0.0018,0.0005995197117501269
+4000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,-0.0196,0.0028008457557297723
+4000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,-0.0238,0.0034538526053617155
+4000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,-0.0366,0.004041702001757947
+4000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.0944,0.005002272738117075
+4000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,-0.0742,0.00508173560974609
+4000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,4993,-0.2323252553575005,0.006584076338482698
+4000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4652,-0.49484092863284607,0.007627785742996091
+4000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,2255,-0.78980044345898,0.00865068063473666
+4000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,424,-0.7193396226415094,0.02184677621670074
+4000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0177,0.0176776695296636,covered,S_shrink_delta_0.0177 - continuous,5000,-0.043,0.0038253269958691194
+4000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0028,0.0020782915722226836
+4000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,-0.0006,0.0025379551302670126
+4000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.0018,0.0027930113108321788
+4000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.0056,0.003381717788793235
+4000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.0002,0.0035160296490357673
+4000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,4993,-0.002403364710594833,0.0038213376636572847
+4000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4652,-0.005374032674118658,0.00409524516230375
+4000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,2255,-0.07760532150776053,0.008219813693506002
+4000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,424,-0.41037735849056606,0.026567704479483464
+4000,RBC MSE,shrinking_delta,S_shrink_delta_0.0177,0.0176776695296636,covered,S_shrink_delta_0.0177 - continuous,5000,-0.0048,0.0027123538435599682
+5000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.0006,0.0004471778098236984
+5000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.0006,0.0006000000000000001
+5000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.0014,0.0005288326132024737
+5000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,0.0014,0.0005997332206799932
+5000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,0.0016,0.0005652892271944303
+5000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,4962,0.0016122531237404273,0.0005696152673806962
+5000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4014,0.001245640259093174,0.0005567895584234
+5000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,968,0.0010330578512396695,0.0010330578512396692
+5000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,114,0.0,0.0
+5000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0158,0.0158113883008419,covered,S_shrink_delta_0.0158 - continuous,5000,0.001,0.0005290141502778909
+5000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,-0.0166,0.0026807322255408147
+5000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,-0.031,0.0034190843843937982
+5000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,-0.0434,0.004067750892011935
+5000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.0814,0.004857934530804333
+5000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,-0.1196,0.005428172898149288
+5000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,4962,-0.3069326884320838,0.007027031569779234
+5000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4014,-0.661684105630294,0.00761696500951286
+5000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,968,-0.7799586776859504,0.013322161163432204
+5000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,114,-0.7543859649122807,0.040493392977481425
+5000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0158,0.0158113883008419,covered,S_shrink_delta_0.0158 - continuous,5000,-0.0406,0.0036486971096707415
+5000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,covered,F_delta_0.01 - continuous,5000,0.003,0.001969511562585767
+5000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,covered,F_delta_0.015 - continuous,5000,0.0002,0.0023918896770640254
+5000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,covered,F_delta_0.02 - continuous,5000,0.001,0.0029054239445663573
+5000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,covered,F_delta_0.025 - continuous,5000,-0.0044,0.0031997149302909825
+5000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,covered,F_delta_0.03 - continuous,5000,-0.0006,0.0035499927450204655
+5000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,covered,F_delta_0.035 - continuous,4962,-0.005441354292623942,0.0038180828461281415
+5000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,covered,F_delta_0.04 - continuous,4014,-0.008719481813652218,0.004571881363567637
+5000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,covered,F_delta_0.045 - continuous,968,-0.21694214876033058,0.015346042694842753
+5000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,covered,F_delta_0.05 - continuous,114,-0.5526315789473685,0.04998385900492637
+5000,RBC MSE,shrinking_delta,S_shrink_delta_0.0158,0.0158113883008419,covered,S_shrink_delta_0.0158 - continuous,5000,-0.0016,0.00254573843056025
+500,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.004400025148561749,0.00020483672399453914
+500,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005898443969252179,0.0002679199532725888
+500,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.008505405676974704,0.000340954558525216
+500,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.011299192908251505,0.0004182409849791873
+500,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.013808005613722384,0.00048612629255129864
+500,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.019583595685718106,0.0005772557022125385
+500,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,5000,0.024007432299780862,0.0006514155042111922
+500,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,5000,0.03164420910405487,0.0006920034217627816
+500,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4998,0.047289558061177205,0.0007514020960020641
+500,Bias-aware/Honest,fixed_delta_0.055,F_delta_0.055,0.055,estimate,F_delta_0.055 - continuous,4991,0.06515586264866469,0.000826136549382086
+500,Bias-aware/Honest,fixed_delta_0.06,F_delta_0.06,0.06,estimate,F_delta_0.06 - continuous,4955,0.08547598954672116,0.0008949304810350233
+500,Bias-aware/Honest,fixed_delta_0.065,F_delta_0.065,0.065,estimate,F_delta_0.065 - continuous,4865,0.10745335378051853,0.0009543309865115466
+500,Bias-aware/Honest,fixed_delta_0.07,F_delta_0.07,0.07,estimate,F_delta_0.07 - continuous,4668,0.13096947665694955,0.0010200733512868143
+500,Bias-aware/Honest,fixed_delta_0.075,F_delta_0.075,0.075,estimate,F_delta_0.075 - continuous,4285,0.15575993506321828,0.001112140512486179
+500,Bias-aware/Honest,fixed_delta_0.08,F_delta_0.08,0.08,estimate,F_delta_0.08 - continuous,3694,0.18300983913624172,0.0012465418260315015
+500,Bias-aware/Honest,fixed_delta_0.09,F_delta_0.09,0.09,estimate,F_delta_0.09 - continuous,2636,0.24072560073899815,0.0015417628863799691
+500,Bias-aware/Honest,fixed_delta_0.1,F_delta_0.1,0.1,estimate,F_delta_0.1 - continuous,2101,0.2986847368237841,0.0017651460072393738
+500,Bias-aware/Honest,fixed_delta_0.12,F_delta_0.12,0.12,estimate,F_delta_0.12 - continuous,48,0.43961626305060736,0.012171918925315958
+500,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0500,0.05,estimate,S_shrink_delta_0.0500 - continuous,4998,0.047289558061177205,0.0007514020960020641
+500,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.004400025148561899,0.00020483672399453925
+500,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.0058984439692519935,0.0002679199532725866
+500,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.008505405676974479,0.00034095455852521775
+500,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.01129919290825133,0.000418240984979185
+500,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.013808005613722588,0.00048612629255129805
+500,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.019583595685718245,0.0005772557022125387
+500,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,5000,0.024007432299781074,0.0006514155042111907
+500,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,5000,0.03164420910405465,0.0006920034217627842
+500,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4998,0.047289558061177205,0.0007514020960020635
+500,Conventional MSE,fixed_delta_0.055,F_delta_0.055,0.055,estimate,F_delta_0.055 - continuous,4991,0.06515586264866462,0.000826136549382089
+500,Conventional MSE,fixed_delta_0.06,F_delta_0.06,0.06,estimate,F_delta_0.06 - continuous,4955,0.08547598954672118,0.0008949304810350246
+500,Conventional MSE,fixed_delta_0.065,F_delta_0.065,0.065,estimate,F_delta_0.065 - continuous,4865,0.1074533537805196,0.0009543309865115406
+500,Conventional MSE,fixed_delta_0.07,F_delta_0.07,0.07,estimate,F_delta_0.07 - continuous,4668,0.13096947665694922,0.0010200733512868176
+500,Conventional MSE,fixed_delta_0.075,F_delta_0.075,0.075,estimate,F_delta_0.075 - continuous,4285,0.15575993506321795,0.0011121405124861854
+500,Conventional MSE,fixed_delta_0.08,F_delta_0.08,0.08,estimate,F_delta_0.08 - continuous,3694,0.18300983913605767,0.0012465418260298234
+500,Conventional MSE,fixed_delta_0.09,F_delta_0.09,0.09,estimate,F_delta_0.09 - continuous,2636,0.2407256007390266,0.0015417628863793622
+500,Conventional MSE,fixed_delta_0.1,F_delta_0.1,0.1,estimate,F_delta_0.1 - continuous,2101,0.2986847368237859,0.0017651460072393443
+500,Conventional MSE,fixed_delta_0.12,F_delta_0.12,0.12,estimate,F_delta_0.12 - continuous,48,0.4396162630506765,0.012171918925316775
+500,Conventional MSE,shrinking_delta,S_shrink_delta_0.0500,0.05,estimate,S_shrink_delta_0.0500 - continuous,4998,0.047289558061177205,0.0007514020960020635
+500,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0011176706406696784,0.0001891388578578897
+500,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.001390669293946687,0.00025791991183619055
+500,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.0018644701283315676,0.0003325764856335912
+500,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.0028249573714850176,0.00041278210398761165
+500,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.0029875164008322554,0.0004882279494760939
+500,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.0045755517487697074,0.0005841461488181925
+500,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,5000,0.006112632276237547,0.0006670225537636905
+500,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,5000,0.008522373230580058,0.0007331637251132543
+500,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4998,0.014126142163324217,0.0008117472373348452
+500,RBC MSE,fixed_delta_0.055,F_delta_0.055,0.055,estimate,F_delta_0.055 - continuous,4991,0.019608256694794487,0.00090140566763329
+500,RBC MSE,fixed_delta_0.06,F_delta_0.06,0.06,estimate,F_delta_0.06 - continuous,4955,0.027628396709102776,0.0009741278150087603
+500,RBC MSE,fixed_delta_0.065,F_delta_0.065,0.065,estimate,F_delta_0.065 - continuous,4865,0.03738494526511905,0.0010405858687955493
+500,RBC MSE,fixed_delta_0.07,F_delta_0.07,0.07,estimate,F_delta_0.07 - continuous,4668,0.04901894706295844,0.0011102312421951929
+500,RBC MSE,fixed_delta_0.075,F_delta_0.075,0.075,estimate,F_delta_0.075 - continuous,4285,0.06200499119822186,0.0012111157994441513
+500,RBC MSE,fixed_delta_0.08,F_delta_0.08,0.08,estimate,F_delta_0.08 - continuous,3694,0.07774372776069649,0.0013577167203188336
+500,RBC MSE,fixed_delta_0.09,F_delta_0.09,0.09,estimate,F_delta_0.09 - continuous,2636,0.11211590597025124,0.0016846282721193148
+500,RBC MSE,fixed_delta_0.1,F_delta_0.1,0.1,estimate,F_delta_0.1 - continuous,2101,0.14512649747820106,0.0019331375179888108
+500,RBC MSE,fixed_delta_0.12,F_delta_0.12,0.12,estimate,F_delta_0.12 - continuous,48,0.26257018600226883,0.01234302515053266
+500,RBC MSE,shrinking_delta,S_shrink_delta_0.0500,0.05,estimate,S_shrink_delta_0.0500 - continuous,4998,0.014126142163324217,0.0008117472373348452
+750,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.003906658675864103,0.000167742308726177
+750,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005602809164688677,0.0002276177009625174
+750,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.007690368057177841,0.0002970014233913654
+750,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.011655886024402332,0.000363795425438354
+750,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.01667435744006595,0.00043954847444925544
+750,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.020501884362056463,0.0005320710450405308
+750,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,5000,0.026056850263211577,0.0005780455788840644
+750,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,4998,0.038877938618661935,0.0006193116745152219
+750,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4991,0.05631074269189726,0.000678073962632801
+750,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0408,0.0408248290463863,estimate,S_shrink_delta_0.0408 - continuous,5000,0.028038228312272293,0.0005791671581331957
+750,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.003906658675864132,0.00016774230872617653
+750,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005602809164688692,0.00022761770096251717
+750,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.007690368057177747,0.0002970014233913655
+750,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.011655886024402295,0.00036379542543835163
+750,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.016674357440065922,0.00043954847444925847
+750,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.020501884362056494,0.0005320710450405277
+750,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,5000,0.026056850263211816,0.0005780455788840643
+750,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,4998,0.03887793861866181,0.0006193116745152234
+750,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4991,0.05631074269189737,0.0006780739626327919
+750,Conventional MSE,shrinking_delta,S_shrink_delta_0.0408,0.0408248290463863,estimate,S_shrink_delta_0.0408 - continuous,5000,0.0280382283122721,0.0005791671581331966
+750,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.001123058070320869,0.00015945964051360356
+750,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.0014648492520203391,0.0002233266778912227
+750,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.0016417041473370162,0.00029369964234935423
+750,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.0030604453141328575,0.00036324257859193473
+750,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.00437546865223334,0.00044630004751085593
+750,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.00481300306760843,0.0005371136039459491
+750,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,5000,0.0073428678494125744,0.0006088441274303192
+750,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,4998,0.01066154556843376,0.0006734958198649243
+750,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4991,0.016162634961792915,0.0007464550874459344
+750,RBC MSE,shrinking_delta,S_shrink_delta_0.0408,0.0408248290463863,estimate,S_shrink_delta_0.0408 - continuous,5000,0.008186906590574708,0.0006160706553169938
+1000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0034125829875483603,0.0001491854285436165
+1000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005525153810069666,0.00021123134308351641
+1000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.007999996623837826,0.0002735915222694353
+1000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.01187912512193424,0.0003401547352876471
+1000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.01772198915352818,0.00042579621670307496
+1000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.019859370344458446,0.0004985523069476047
+1000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4999,0.028733413140576095,0.0005287766185884011
+1000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,4993,0.04361459918304357,0.0005839262346560084
+1000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4966,0.06105401056028591,0.0006456895339425176
+1000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0354,0.0353553390593273,estimate,S_shrink_delta_0.0354 - continuous,5000,0.020072635476975784,0.0004991259867635831
+1000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0034125829875483378,0.00014918542854361517
+1000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.0055251538100693385,0.0002112313430835144
+1000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.007999996623837649,0.00027359152226943696
+1000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.0118791251219343,0.0003401547352876468
+1000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.01772198915352802,0.0004257962167030807
+1000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.019859370344458314,0.0004985523069476026
+1000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4999,0.02873341314057575,0.0005287766185884023
+1000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,4993,0.04361459918304327,0.0005839262346560044
+1000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4966,0.061054010560286,0.0006456895339425204
+1000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0354,0.0353553390593273,estimate,S_shrink_delta_0.0354 - continuous,5000,0.020072635476975638,0.000499125986763584
+1000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0008530326833377801,0.00014443376902947887
+1000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.0013783969775182636,0.0002090424029495243
+1000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.0017300534769784217,0.0002725794290269234
+1000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.003183683556168772,0.00034269135961073643
+1000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.004444381442967956,0.0004287113171083687
+1000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.004894554363876527,0.000506394566070673
+1000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4999,0.008117435913562874,0.0005631407366843179
+1000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,4993,0.011336332612724894,0.0006373403238607275
+1000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4966,0.016757689965117954,0.0007083883161427593
+1000,RBC MSE,shrinking_delta,S_shrink_delta_0.0354,0.0353553390593273,estimate,S_shrink_delta_0.0354 - continuous,5000,0.004945287987627247,0.0005095205028936178
+1500,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0032586368962102897,0.00012897141202621457
+1500,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005456927002176036,0.0001918991196712439
+1500,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.008144958058851333,0.00024397468973255662
+1500,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.01233388193444649,0.00030641562190269865
+1500,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.016956232027731465,0.00039091557447173893
+1500,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.020389924887875006,0.00043465619123121924
+1500,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4999,0.03345159643011478,0.00047376071582289433
+1500,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,4961,0.049130331409939186,0.0005286757821444443
+1500,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4733,0.06730392610280661,0.0005868441292878877
+1500,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0289,0.0288675134594812,estimate,S_shrink_delta_0.0289 - continuous,5000,0.016434105072525473,0.00037619510664109847
+1500,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.003258636896210186,0.0001289714120262134
+1500,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.0054569270021762985,0.00019189911967124767
+1500,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.008144958058851313,0.00024397468973255687
+1500,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.012333881934446128,0.0003064156219026962
+1500,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.01695623202773158,0.000390915574471735
+1500,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.020389924887875055,0.0004346561912312169
+1500,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4999,0.033451596430114694,0.0004737607158228969
+1500,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,4961,0.049130331409938936,0.0005286757821444529
+1500,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4733,0.06730392610280718,0.0005868441292878674
+1500,Conventional MSE,shrinking_delta,S_shrink_delta_0.0289,0.0288675134594812,estimate,S_shrink_delta_0.0289 - continuous,5000,0.016434105072525823,0.0003761951066410973
+1500,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0007961639081078608,0.000127062861261182
+1500,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.0012395607681444573,0.00019093002679721187
+1500,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.001503238137475721,0.0002446698712510122
+1500,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.0029870015496727543,0.00031399917202423126
+1500,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.00397041637617123,0.0003907841245181849
+1500,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.005272317757123412,0.00045533395099000553
+1500,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4999,0.008322783000996908,0.000514446145065235
+1500,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,4961,0.011780146223636866,0.0005795538534549774
+1500,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4733,0.019012445018836397,0.0006378582265325769
+1500,RBC MSE,shrinking_delta,S_shrink_delta_0.0289,0.0288675134594812,estimate,S_shrink_delta_0.0289 - continuous,5000,0.0037940750867929353,0.00037668188415025444
+2000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.003153606821501285,0.00011969788327985219
+2000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005422123041478116,0.00017589493006599694
+2000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.007715249287228599,0.00023360561670418342
+2000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.013200261288018395,0.00028962433628637135
+2000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.015556869020815168,0.0003635149722512038
+2000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.02288565025267798,0.00039466210486066745
+2000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4996,0.0367114981667208,0.0004410400144493915
+2000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,4832,0.05291097617812696,0.0004935661289410687
+2000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4040,0.07222723091399301,0.000569865014794248
+2000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0250,0.025,estimate,S_shrink_delta_0.0250 - continuous,5000,0.013200261288018395,0.00028962433628637135
+2000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.003153606821501325,0.00011969788327985398
+2000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005422123041478294,0.00017589493006600377
+2000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.007715249287228298,0.00023360561670418691
+2000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.01320026128801835,0.000289624336286378
+2000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.015556869020815094,0.00036351497225120533
+2000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.02288565025267827,0.00039466210486066236
+2000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4996,0.03671149816672174,0.00044104001444938187
+2000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,4832,0.05291097617811207,0.0004935661289404452
+2000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4040,0.0722272309140085,0.0005698650147944699
+2000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0250,0.025,estimate,S_shrink_delta_0.0250 - continuous,5000,0.01320026128801835,0.000289624336286378
+2000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0006975822941394342,0.00011845703603995438
+2000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.001142383807179953,0.00017544808717861925
+2000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.0011359369839420014,0.00023405066568228162
+2000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.0029722951046015763,0.0002972078673597322
+2000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.003958734991619396,0.0003651753204991217
+2000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,5000,0.005909575985995065,0.0004204754992002309
+2000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4996,0.008346828757555639,0.0004849823843977332
+2000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,4832,0.013215317297390207,0.0005385367325095595
+2000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,4040,0.023100767098261154,0.0006115914393444008
+2000,RBC MSE,shrinking_delta,S_shrink_delta_0.0250,0.025,estimate,S_shrink_delta_0.0250 - continuous,5000,0.0029722951046015763,0.0002972078673597322
+3000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0030514114645431543,0.00010742341819389548
+3000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005166448215955178,0.0001592549218166618
+3000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.007320082136743086,0.0002103737081019861
+3000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.0127348405639069,0.00028134994474643323
+3000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.015375109784293869,0.0003175020905191986
+3000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,4999,0.026824446905957623,0.00035433916065130905
+3000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4924,0.04094657506895187,0.00040039069615081433
+3000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,3903,0.05906607639108565,0.00048681956586304223
+3000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,1689,0.08301238780754784,0.0007799762053580685
+3000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0204,0.0204124145231931,estimate,S_shrink_delta_0.0204 - continuous,5000,0.0076597255558828155,0.00021469460150361357
+3000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0030514114645429536,0.0001074234181939018
+3000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005166448215955071,0.00015925492181665722
+3000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.00732008213674263,0.0002103737081019768
+3000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.012734840563907042,0.00028134994474643865
+3000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.015375109784293487,0.00031750209051920676
+3000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,4999,0.02682444690595785,0.0003543391606513071
+3000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4924,0.04094657506895253,0.0004003906961507905
+3000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,3903,0.059066076391107,0.0004868195658625958
+3000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,1689,0.0830123878075187,0.0007799762053578356
+3000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0204,0.0204124145231931,estimate,S_shrink_delta_0.0204 - continuous,5000,0.007659725555882966,0.00021469460150360683
+3000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0006381120998654476,0.00010667716588042826
+3000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.0010849280304095123,0.00015937158000949364
+3000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.0013082040577090655,0.00021264511695384518
+3000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.002364648656485848,0.00028097172032682345
+3000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.004109424675410632,0.00033289501498975747
+3000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,4999,0.006201489308694476,0.00038488042456383595
+3000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4924,0.008843156889356394,0.00043935059624053435
+3000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,3903,0.01816696783835722,0.000518560367046164
+3000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,1689,0.036224921130265805,0.0008134074188226892
+3000,RBC MSE,shrinking_delta,S_shrink_delta_0.0204,0.0204124145231931,estimate,S_shrink_delta_0.0204 - continuous,5000,0.0013695465806698945,0.00021832395623720482
+4000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0029865037696202015,0.00010086062394428538
+4000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005149250994049917,0.0001485073641762771
+4000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.007865156191043231,0.0001960382077869204
+4000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.011120213941476052,0.0002701698943519172
+4000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.0170708107107864,0.0002947169600152363
+4000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,4993,0.029296780963593855,0.00033806485742147253
+4000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4652,0.04413891808443095,0.00038802719880536956
+4000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,2255,0.0642157294017049,0.0005911785244148132
+4000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,424,0.08796107218500758,0.0014115347704709805
+4000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0177,0.0176776695296636,estimate,S_shrink_delta_0.0177 - continuous,5000,0.0064009225405156,0.00018017021813684792
+4000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.002986503769620094,0.00010086062394428588
+4000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005149250994049658,0.00014850736417627419
+4000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.0078651561910433,0.0001960382077869179
+4000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.011120213941476298,0.00027016989435191784
+4000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.017070810710786127,0.0002947169600152388
+4000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,4993,0.029296780963593946,0.00033806485742147416
+4000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4652,0.04413891808443068,0.00038802719880539976
+4000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,2255,0.0642157294018405,0.0005911785244187843
+4000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,424,0.08796107218492452,0.0014115347704801299
+4000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0177,0.0176776695296636,estimate,S_shrink_delta_0.0177 - continuous,5000,0.006400922540515159,0.0001801702181368477
+4000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0006186941641394173,0.00010080449668470752
+4000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.0010599666567883477,0.00015000842418001046
+4000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.0015111998118988433,0.0002009341014891302
+4000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.002009472176713937,0.0002675895053151955
+4000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.004192871568248422,0.0003143936741681016
+4000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,4993,0.006134305502601798,0.00037140523186710337
+4000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4652,0.010567217765024851,0.00042211978661549213
+4000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,2255,0.024606259205974177,0.0006202546739581832
+4000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,424,0.04578224220263297,0.0014811171957744122
+4000,RBC MSE,shrinking_delta,S_shrink_delta_0.0177,0.0176776695296636,estimate,S_shrink_delta_0.0177 - continuous,5000,0.001217572245136063,0.00017968803078857162
+5000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0029917281533115535,9.554900891451176e-05
+5000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005430212730960298,0.00014268476786085245
+5000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.00860364684289121,0.00018723540556083622
+5000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.010006442724569001,0.0002540792161630835
+5000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.018762734779496765,0.0002796767036969704
+5000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,4962,0.031232331297107337,0.0003217101825611022
+5000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4014,0.04752562941959964,0.000389050279575601
+5000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,968,0.06990073659234902,0.0008363273493804772
+5000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,114,0.09394094232653287,0.002639318563520765
+5000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0158,0.0158113883008419,estimate,S_shrink_delta_0.0158 - continuous,5000,0.0058356342380839685,0.00015192215292302206
+5000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.002991728153311261,9.554900891451496e-05
+5000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.005430212730960629,0.00014268476786085822
+5000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.008603646842891,0.00018723540556083788
+5000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.01000644272456904,0.00025407921616307707
+5000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.018762734779496283,0.00027967670369696867
+5000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,4962,0.031232331297104864,0.00032171018256110264
+5000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4014,0.0475256294196064,0.00038905027957543105
+5000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,968,0.06990073659235109,0.0008363273493808347
+5000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,114,0.09394094232660032,0.00263931856352128
+5000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0158,0.0158113883008419,estimate,S_shrink_delta_0.0158 - continuous,5000,0.005835634238084281,0.0001519221529230249
+5000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,estimate,F_delta_0.01 - continuous,5000,0.0006206451267365594,9.558371323450747e-05
+5000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,estimate,F_delta_0.015 - continuous,5000,0.0011134702338520767,0.00014425483301991904
+5000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,estimate,F_delta_0.02 - continuous,5000,0.0016259776882450712,0.00019251362748005203
+5000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,estimate,F_delta_0.025 - continuous,5000,0.0019332856354944002,0.0002554420690910752
+5000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,estimate,F_delta_0.03 - continuous,5000,0.0043342777578350665,0.0002991853079894012
+5000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,estimate,F_delta_0.035 - continuous,4962,0.006299050833276728,0.00035348174208371837
+5000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,estimate,F_delta_0.04 - continuous,4014,0.01370021040992241,0.00041415737785459046
+5000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,estimate,F_delta_0.045 - continuous,968,0.03229318316861381,0.0008673518575072047
+5000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,estimate,F_delta_0.05 - continuous,114,0.057088334781877664,0.0027107561978674016
+5000,RBC MSE,shrinking_delta,S_shrink_delta_0.0158,0.0158113883008419,estimate,S_shrink_delta_0.0158 - continuous,5000,0.0010827682780546717,0.00015219016381947867
+500,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.01658440317242224,0.0004904932671248815
+500,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.02349803192809454,0.0006440698351532372
+500,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.03378675534684289,0.0008152503295474287
+500,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.04784527537752603,0.0009632651103758201
+500,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.051523636470235445,0.0011395892354138196
+500,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,0.06748124337890707,0.0012349626394657623
+500,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,5000,0.11176737267118661,0.0013310311564500355
+500,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,5000,0.173365423929694,0.0013998112254967941
+500,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4998,0.2482572617266365,0.001446357367962291
+500,Bias-aware/Honest,fixed_delta_0.055,F_delta_0.055,0.055,ci_length,F_delta_0.055 - continuous,4991,0.335374850504868,0.0014777678465560196
+500,Bias-aware/Honest,fixed_delta_0.06,F_delta_0.06,0.06,ci_length,F_delta_0.06 - continuous,4955,0.4340206320316552,0.0015085477694001628
+500,Bias-aware/Honest,fixed_delta_0.065,F_delta_0.065,0.065,ci_length,F_delta_0.065 - continuous,4865,0.5429981647318076,0.001542744802548147
+500,Bias-aware/Honest,fixed_delta_0.07,F_delta_0.07,0.07,ci_length,F_delta_0.07 - continuous,4668,0.6625793833583709,0.0015976277047846444
+500,Bias-aware/Honest,fixed_delta_0.075,F_delta_0.075,0.075,ci_length,F_delta_0.075 - continuous,4285,0.7912465155269298,0.0016821929446588675
+500,Bias-aware/Honest,fixed_delta_0.08,F_delta_0.08,0.08,ci_length,F_delta_0.08 - continuous,3694,0.9311675874905919,0.001842035552469218
+500,Bias-aware/Honest,fixed_delta_0.09,F_delta_0.09,0.09,ci_length,F_delta_0.09 - continuous,2636,1.2443225294712452,0.0021968870155484846
+500,Bias-aware/Honest,fixed_delta_0.1,F_delta_0.1,0.1,ci_length,F_delta_0.1 - continuous,2101,1.5992807494770827,0.002472387537254527
+500,Bias-aware/Honest,fixed_delta_0.12,F_delta_0.12,0.12,ci_length,F_delta_0.12 - continuous,48,2.4175222882589864,0.018250976774474105
+500,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0500,0.05,ci_length,S_shrink_delta_0.0500 - continuous,4998,0.2482572617266365,0.001446357367962291
+500,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.009246529751490247,0.0006198022268905994
+500,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.004235956406581929,0.0007795578623061255
+500,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.0030718361228299846,0.000992969646370201
+500,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,-0.0046734662723366864,0.001084512033576971
+500,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,-0.012302108333080354,0.0011250708840474057
+500,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,-0.013839338020925447,0.001155928691631477
+500,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,5000,-0.010576191212923282,0.001194020835340155
+500,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,5000,-0.011547197557697984,0.0011996669005259685
+500,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4998,-0.0223563230320141,0.0012439426687660465
+500,Conventional MSE,fixed_delta_0.055,F_delta_0.055,0.055,ci_length,F_delta_0.055 - continuous,4991,-0.03519020279434109,0.0012517573133059108
+500,Conventional MSE,fixed_delta_0.06,F_delta_0.06,0.06,ci_length,F_delta_0.06 - continuous,4955,-0.04703757696934635,0.001268201486546419
+500,Conventional MSE,fixed_delta_0.065,F_delta_0.065,0.065,ci_length,F_delta_0.065 - continuous,4865,-0.057627634590316265,0.0012995249016938242
+500,Conventional MSE,fixed_delta_0.07,F_delta_0.07,0.07,ci_length,F_delta_0.07 - continuous,4668,-0.06610896838899503,0.0013257099695679587
+500,Conventional MSE,fixed_delta_0.075,F_delta_0.075,0.075,ci_length,F_delta_0.075 - continuous,4285,-0.07443314794037124,0.0013742251189765567
+500,Conventional MSE,fixed_delta_0.08,F_delta_0.08,0.08,ci_length,F_delta_0.08 - continuous,3694,-0.08130192361242009,0.001484376851769744
+500,Conventional MSE,fixed_delta_0.09,F_delta_0.09,0.09,ci_length,F_delta_0.09 - continuous,2636,-0.09304053836381611,0.0017177585124881923
+500,Conventional MSE,fixed_delta_0.1,F_delta_0.1,0.1,ci_length,F_delta_0.1 - continuous,2101,-0.1058260437454622,0.001930536098760761
+500,Conventional MSE,fixed_delta_0.12,F_delta_0.12,0.12,ci_length,F_delta_0.12 - continuous,48,-0.12132886451216163,0.01200596391833361
+500,Conventional MSE,shrinking_delta,S_shrink_delta_0.0500,0.05,ci_length,S_shrink_delta_0.0500 - continuous,4998,-0.0223563230320141,0.0012439426687660465
+500,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.011571822909597672,0.0006762664299729685
+500,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.007368360557745723,0.0008523482629356178
+500,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.006984409703741459,0.0010916959243736433
+500,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,-4.494186910117759e-05,0.0011983270617257186
+500,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,-0.00694993042551925,0.0012361217753088687
+500,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,-0.0058377909722550055,0.001267267945366395
+500,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,5000,-0.00042844925252201883,0.0013060207484465235
+500,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,5000,0.00166502579482282,0.0012991975362421353
+500,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4998,-0.005549124804923117,0.0013474862849024714
+500,RBC MSE,fixed_delta_0.055,F_delta_0.055,0.055,ci_length,F_delta_0.055 - continuous,4991,-0.013222891843048363,0.0013573480641596433
+500,RBC MSE,fixed_delta_0.06,F_delta_0.06,0.06,ci_length,F_delta_0.06 - continuous,4955,-0.02218181490889757,0.001380308039239151
+500,RBC MSE,fixed_delta_0.065,F_delta_0.065,0.065,ci_length,F_delta_0.065 - continuous,4865,-0.03122489790628073,0.0014156363876218984
+500,RBC MSE,fixed_delta_0.07,F_delta_0.07,0.07,ci_length,F_delta_0.07 - continuous,4668,-0.03831945135393786,0.0014488808369017294
+500,RBC MSE,fixed_delta_0.075,F_delta_0.075,0.075,ci_length,F_delta_0.075 - continuous,4285,-0.04391059470530477,0.0015112718053063858
+500,RBC MSE,fixed_delta_0.08,F_delta_0.08,0.08,ci_length,F_delta_0.08 - continuous,3694,-0.04675440005349694,0.0016459887090190888
+500,RBC MSE,fixed_delta_0.09,F_delta_0.09,0.09,ci_length,F_delta_0.09 - continuous,2636,-0.050778518174718526,0.0019327989311938383
+500,RBC MSE,fixed_delta_0.1,F_delta_0.1,0.1,ci_length,F_delta_0.1 - continuous,2101,-0.06248573739682376,0.002175164937127355
+500,RBC MSE,fixed_delta_0.12,F_delta_0.12,0.12,ci_length,F_delta_0.12 - continuous,48,-0.057950646515580385,0.013099771560038706
+500,RBC MSE,shrinking_delta,S_shrink_delta_0.0500,0.05,ci_length,S_shrink_delta_0.0500 - continuous,4998,-0.005549124804923117,0.0013474862849024714
+750,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.013465801547680407,0.00033174488859563054
+750,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.020934767950462636,0.0004475213992366711
+750,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.029900687001830288,0.0005575431424048536
+750,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.04609710716740218,0.0007183319487275322
+750,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.04880444151488817,0.0007952614176816638
+750,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,0.08241263971753195,0.0008740975351692303
+750,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,5000,0.13647139052750673,0.0009288039708527761
+750,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,4998,0.20213406548291465,0.0009641617660470781
+750,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4991,0.2804840660338111,0.000994583443737988
+750,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0408,0.0408248290463863,ci_length,S_shrink_delta_0.0408 - continuous,5000,0.14667118559766137,0.0009384659027140994
+750,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.0022574158161982627,0.0003973798761386126
+750,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,-0.002672186041471611,0.00047438965571143825
+750,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,-0.004563702323571006,0.0005557700188684943
+750,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,-0.006300214811012841,0.0005814313698509842
+750,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,-0.00651788743816641,0.0006088469430717162
+750,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,-0.001735942959177255,0.0006599848058396908
+750,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,5000,0.0037030521655004116,0.0006940638412636141
+750,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,4998,-0.00416333636272729,0.000723580255176186
+750,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4991,-0.01640689913623659,0.0007422815295076868
+750,Conventional MSE,shrinking_delta,S_shrink_delta_0.0408,0.0408248290463863,ci_length,S_shrink_delta_0.0408 - continuous,5000,0.003294972818622999,0.000699374239569906
+750,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.003635966110708818,0.0004305155186353032
+750,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,-0.0008087027104802587,0.0005153792439242553
+750,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,-0.0019518701636395811,0.0006045666499717049
+750,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,-0.0023287221293033134,0.0006325853663578965
+750,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,-0.00042351075875542285,0.0006583586451764447
+750,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,0.006729161866658562,0.0007099404964710004
+750,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,5000,0.014115231937878456,0.0007419352644316885
+750,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,4998,0.012498035031541434,0.0007708816411873417
+750,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4991,0.0050659671230800325,0.0007929789305782058
+750,RBC MSE,shrinking_delta,S_shrink_delta_0.0408,0.0408248290463863,ci_length,S_shrink_delta_0.0408 - continuous,5000,0.014212915992232351,0.0007487360678329259
+1000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.012168069189495196,0.00026796930141489956
+1000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.020449178441775122,0.0003644820180821369
+1000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.032622534150228116,0.0004559982775451118
+1000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.041991829221831506,0.0005889662526591166
+1000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.051321772176794775,0.0006331972049445542
+1000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,0.09461889938028872,0.0007011200245976094
+1000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4999,0.15032041554265307,0.0007396174763082825
+1000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,4993,0.21836354102364186,0.0007656628299460383
+1000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4966,0.2985017523274421,0.0007846422659656371
+1000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0354,0.0353553390593273,ci_length,S_shrink_delta_0.0354 - continuous,5000,0.09822288701688472,0.0007036278165265245
+1000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,-0.0004929831687986954,0.0002805072148039955
+1000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,-0.003010970019999716,0.0003334451788000763
+1000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,-0.003414759282267117,0.0003624655448778155
+1000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,-0.0018834920692103769,0.0003995396104524996
+1000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,-0.0023868020738072484,0.00043910413766683204
+1000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,0.0063919154722712835,0.0004902173394740159
+1000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4999,0.005218799705176612,0.0005056297199404801
+1000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,4993,-0.006056099046145383,0.0005267949542237369
+1000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4966,-0.01723017222320672,0.0005391477035261633
+1000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0354,0.0353553390593273,ci_length,S_shrink_delta_0.0354 - continuous,5000,0.00687362608748534,0.0004930341767579325
+1000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.0005107031835172243,0.00030260178391859974
+1000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,-0.0013787349146898058,0.00035970128307845356
+1000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,-0.0007703758800821137,0.0003902736460083182
+1000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.002178164954798196,0.00042964563201393997
+1000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.004310616891507705,0.0004712242807583972
+1000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,0.014319653086708016,0.000519261073224822
+1000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4999,0.016513825745618792,0.0005361194627109804
+1000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,4993,0.012782815543933084,0.0005581519678345686
+1000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4966,0.005709816510666733,0.0005749570264369463
+1000,RBC MSE,shrinking_delta,S_shrink_delta_0.0354,0.0353553390593273,ci_length,S_shrink_delta_0.0354 - continuous,5000,0.014884051859410122,0.0005218021649509246
+1500,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.011309185911999881,0.00019940263981999457
+1500,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.01819945115979507,0.0002774645079096274
+1500,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.034816680597744266,0.0003541684928745992
+1500,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.034372747375072524,0.00043366949150824916
+1500,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.06171618788721605,0.00048229593879351254
+1500,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,0.10971715124013451,0.0005147716890438297
+1500,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4999,0.1682237131838641,0.0005377089901718268
+1500,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,4961,0.2390539063589088,0.0005527058179965726
+1500,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4733,0.32023135275837716,0.0005738566445564685
+1500,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0289,0.0288675134594812,ci_length,S_shrink_delta_0.0289 - continuous,5000,0.05239131656455413,0.0004698377907131425
+1500,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,-0.0021499292071791784,0.00019449064574825602
+1500,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,-0.0023212239604828502,0.0002211680008590716
+1500,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,-0.0018519535437207765,0.0002502850851399397
+1500,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,-0.0004458225525439783,0.00028412341636043474
+1500,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.002104800268261669,0.0003308203783538005
+1500,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,0.008837263799952401,0.0003404278495876607
+1500,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4999,-0.0010122518576107687,0.0003531278667515396
+1500,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,4961,-0.01159857949828137,0.0003648489407696468
+1500,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4733,-0.020426606590996817,0.00037832149489089236
+1500,Conventional MSE,shrinking_delta,S_shrink_delta_0.0289,0.0288675134594812,ci_length,S_shrink_delta_0.0289 - continuous,5000,0.00033888734684559544,0.00032112705057074127
+1500,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,-0.00135434259107487,0.00020811232935091518
+1500,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,-0.0007495016979110348,0.00023610147722113688
+1500,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.0009156824484746836,0.00026733775257624143
+1500,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.00370952000244709,0.00030272167367713615
+1500,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.008258386626884254,0.00034484002380584983
+1500,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,0.016308579420810855,0.00035743291821484094
+1500,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4999,0.012223254889181624,0.00036964568718574444
+1500,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,4961,0.00880833108516096,0.0003867945188426926
+1500,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4733,0.0016230668939823329,0.0004030806597272143
+1500,RBC MSE,shrinking_delta,S_shrink_delta_0.0289,0.0288675134594812,ci_length,S_shrink_delta_0.0289 - continuous,5000,0.006478828760412326,0.0003365943887435255
+2000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.01082472058814069,0.00016562783802596677
+2000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.017235863156943514,0.00022894308549042418
+2000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.03353508252099972,0.00030921267924501766
+2000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.0340126920197363,0.00034659916485790945
+2000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.07051747322715833,0.0003925817837330051
+2000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,0.11917127729656397,0.0004167925343205189
+2000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4996,0.17980647962749646,0.00043045181902990655
+2000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,4832,0.25156450427122284,0.00044455341980532346
+2000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4040,0.33276122262082913,0.0004895930905064552
+2000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0250,0.025,ci_length,S_shrink_delta_0.0250 - continuous,5000,0.0340126920197363,0.00034659916485790945
+2000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,-0.0018019806276745988,0.0001554418606064965
+2000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,-0.00168699272311261,0.00017875682731887955
+2000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,-0.000530484471511253,0.0002060895475705759
+2000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,-0.0009399331334855188,0.0002301457238858756
+2000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.0065328747829263845,0.00027459846189796424
+2000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,0.005380222359733138,0.0002705346201865623
+2000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4996,-0.005505565484397802,0.00028001574792098393
+2000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,4832,-0.014498718118747853,0.00028881065140049395
+2000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4040,-0.021660809601120587,0.00031633670415816517
+2000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0250,0.025,ci_length,S_shrink_delta_0.0250 - continuous,5000,-0.0009399331334855188,0.0002301457238858756
+2000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,-0.0010124872760504519,0.00016553090063157363
+2000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,-0.00010494961108038318,0.00019012443050388624
+2000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.0021663190275170835,0.00021844996586839707
+2000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.003562782784763064,0.00024381538119434642
+2000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.011620408910525331,0.0002812599656103504
+2000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,5000,0.01347529712094757,0.00028230848589412056
+2000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4996,0.009408424347081152,0.0002935764466455655
+2000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,4832,0.005398810876801297,0.00030526200728269506
+2000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,4040,-0.0008604520375661462,0.00033708656263046495
+2000,RBC MSE,shrinking_delta,S_shrink_delta_0.0250,0.025,ci_length,S_shrink_delta_0.0250 - continuous,5000,0.003562782784763064,0.00024381538119434642
+3000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.010125141604058474,0.00012676654941484516
+3000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.018410494830836337,0.00017390170075215388
+3000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.02591512636781904,0.0002489841907318295
+3000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.039917611536986954,0.00026665197894444967
+3000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.08103848430550718,0.0002862937607718192
+3000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,4999,0.13196814750548563,0.00030112628596137966
+3000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4924,0.1946409876010792,0.00031066096624676764
+3000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,3903,0.2666569060105293,0.00035198046389083157
+3000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,1689,0.34729648988717965,0.0005519713912180709
+3000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0204,0.0204124145231931,ci_length,S_shrink_delta_0.0204 - continuous,5000,0.025421868241603647,0.0002495633714493581
+3000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,-0.0015233485484111224,0.00011600140625474263
+3000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,-0.0008927932416205657,0.00013646893299816635
+3000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.001096326078033207,0.0001553174016893581
+3000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.00013670475533646508,0.00018942835005181057
+3000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.007831116757833302,0.0001940076845068461
+3000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,4999,-0.0013270841004911918,0.00020145282516879597
+3000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4924,-0.010312629060393912,0.00020698338595506342
+3000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,3903,-0.016889168685862356,0.00023250689539046303
+3000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,1689,-0.02187977109102958,0.0003571517058861544
+3000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0204,0.0204124145231931,ci_length,S_shrink_delta_0.0204 - continuous,5000,0.0010360294470268972,0.00015644998240004659
+3000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,-0.0007679399781598019,0.00012299340507000795
+3000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.0005577599656812465,0.0001442511805676847
+3000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.0033766912507509424,0.00016341163339890258
+3000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.004512849814804625,0.00019474300324489964
+3000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.012421013945505134,0.0002002455966822029
+3000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,4999,0.008169259307103736,0.00020887535413842556
+3000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4924,0.005813968998392999,0.00021654535525019746
+3000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,3903,0.0012620269366426353,0.00024536260492076474
+3000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,1689,-0.0016470268243018382,0.00038793636231375064
+3000,RBC MSE,shrinking_delta,S_shrink_delta_0.0204,0.0204124145231931,ci_length,S_shrink_delta_0.0204 - continuous,5000,0.003403932817831771,0.00016493836169141252
+4000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.010398735268514392,0.00010533063748862567
+4000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.019942400297257485,0.00014509329830258476
+4000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.02177930350434528,0.00019666020394712612
+4000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.04649684020810847,0.00022170449441387478
+4000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.08757825041261497,0.00023322203433528301
+4000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,4993,0.1402486536342835,0.00024292769240270677
+4000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4652,0.20364512351456826,0.0002570649471824051
+4000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,2255,0.27470955026896093,0.0003756527667761277
+4000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,424,0.3564063951606247,0.0008631972880081877
+4000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0177,0.0176776695296636,ci_length,S_shrink_delta_0.0177 - continuous,5000,0.02507171559568357,0.0001935026812932272
+4000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,-0.001405007473537223,9.638628244209727e-05
+4000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,-0.0008391351800673947,0.00011274885453656628
+4000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.0005011824851921911,0.00012872278088108696
+4000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.0035679202601473434,0.00017251435303047583
+4000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.004380369288107977,0.000160218267613827
+4000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,4993,-0.0051196131713951805,0.0001662945932413515
+4000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4652,-0.012583852566464236,0.00017281919834694615
+4000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,2255,-0.01732607028064451,0.00024266188172629327
+4000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,424,-0.020912533065592848,0.0005753908233236143
+4000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0177,0.0176776695296636,ci_length,S_shrink_delta_0.0177 - continuous,5000,4.9703036214806004e-05,0.0001257090869615477
+4000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,-0.0006839508929382443,0.00010177722975186182
+4000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.0005599634766329512,0.00011854899987109243
+4000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.0028431023760510025,0.00013485744340952738
+4000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.007173813579355603,0.00017142397769805387
+4000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.009670024406458984,0.00016366776951688588
+4000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,4993,0.005695299014574819,0.00017144692005384722
+4000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4652,0.002976287695524411,0.00018015168151036567
+4000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,2255,-0.0001952254378116318,0.0002590591986974751
+4000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,424,0.0023940749482521057,0.0006977435653791936
+4000,RBC MSE,shrinking_delta,S_shrink_delta_0.0177,0.0176776695296636,ci_length,S_shrink_delta_0.0177 - continuous,5000,0.0019319046928841124,0.00013077183276853218
+5000,Bias-aware/Honest,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,0.010695101406791956,9.221533998219512e-05
+5000,Bias-aware/Honest,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.021185567041549995,0.0001285074817281165
+5000,Bias-aware/Honest,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.02089683118884656,0.00016379864681798496
+5000,Bias-aware/Honest,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.051253938754506324,0.0001896986793522567
+5000,Bias-aware/Honest,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.09279012236476271,0.00020081762443042729
+5000,Bias-aware/Honest,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,4962,0.1464320328078301,0.0002076440199717222
+5000,Bias-aware/Honest,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4014,0.21006148256816007,0.00023416285305242286
+5000,Bias-aware/Honest,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,968,0.2806605095973833,0.00049104239398869
+5000,Bias-aware/Honest,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,114,0.36493364846562826,0.0013337090728932433
+5000,Bias-aware/Honest,shrinking_delta,S_shrink_delta_0.0158,0.0158113883008419,ci_length,S_shrink_delta_0.0158 - continuous,5000,0.02324842671672073,0.00014181352831616555
+5000,Conventional MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,-0.0013239082428685549,8.26738066973912e-05
+5000,Conventional MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,-0.0010729162513841476,9.7137188410386e-05
+5000,Conventional MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,-0.0004912117050476978,0.00010933948941719005
+5000,Conventional MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.0061159271790438684,0.00014421485117975148
+5000,Conventional MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.0013439528169177802,0.0001361827101536626
+5000,Conventional MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,4962,-0.007258325863606712,0.00014120566993289466
+5000,Conventional MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4014,-0.013473852358740318,0.0001554114005985108
+5000,Conventional MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,968,-0.017320626738616254,0.00031053262108943035
+5000,Conventional MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,114,-0.01962605532272734,0.0009162670390245794
+5000,Conventional MSE,shrinking_delta,S_shrink_delta_0.0158,0.0158113883008419,ci_length,S_shrink_delta_0.0158 - continuous,5000,-0.0010579184042124115,0.00010098861080910335
+5000,RBC MSE,fixed_delta_0.01,F_delta_0.01,0.01,ci_length,F_delta_0.01 - continuous,5000,-0.0006094892040344388,8.707268759702726e-05
+5000,RBC MSE,fixed_delta_0.015,F_delta_0.015,0.015,ci_length,F_delta_0.015 - continuous,5000,0.00039618185334654323,0.00010191929974056254
+5000,RBC MSE,fixed_delta_0.02,F_delta_0.02,0.02,ci_length,F_delta_0.02 - continuous,5000,0.0020922370860224737,0.00011427026291200577
+5000,RBC MSE,fixed_delta_0.025,F_delta_0.025,0.025,ci_length,F_delta_0.025 - continuous,5000,0.009059316347789547,0.0001428074315746554
+5000,RBC MSE,fixed_delta_0.03,F_delta_0.03,0.03,ci_length,F_delta_0.03 - continuous,5000,0.0071716978904784665,0.00013892242138327846
+5000,RBC MSE,fixed_delta_0.035,F_delta_0.035,0.035,ci_length,F_delta_0.035 - continuous,4962,0.004504879892458458,0.00014595061487891414
+5000,RBC MSE,fixed_delta_0.04,F_delta_0.04,0.04,ci_length,F_delta_0.04 - continuous,4014,0.0012200544421821194,0.00016191273823862532
+5000,RBC MSE,fixed_delta_0.045,F_delta_0.045,0.045,ci_length,F_delta_0.045 - continuous,968,-0.0003325487515662174,0.0003443911455626161
+5000,RBC MSE,fixed_delta_0.05,F_delta_0.05,0.05,ci_length,F_delta_0.05 - continuous,114,0.009314615215115797,0.0011194094991038388
+5000,RBC MSE,shrinking_delta,S_shrink_delta_0.0158,0.0158113883008419,ci_length,S_shrink_delta_0.0158 - continuous,5000,0.0006072640603435533,0.00010545939459282956

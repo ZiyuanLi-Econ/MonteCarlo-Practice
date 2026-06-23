@@ -1,0 +1,9 @@
+n,max_operational_delta,criterion,usability_threshold,min_display_usable
+500,0.05,coverage_display_ok,0.8,30
+750,0.05,coverage_display_ok,0.8,30
+1000,0.05,coverage_display_ok,0.8,30
+1500,0.05,coverage_display_ok,0.8,30
+2000,0.05,coverage_display_ok,0.8,30
+3000,0.04,coverage_display_ok,0.8,30
+4000,0.04,coverage_display_ok,0.8,30
+5000,0.04,coverage_display_ok,0.8,30

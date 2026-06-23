@@ -55,3 +55,4 @@ This experiment keeps the DGP fixed but changes the error distribution. It studi
 2.3 Discrete
 Script: code/cct_2_3_discrete_paired.py
 This experiment studies discrete running variables. It includes a general discrete-support experiment and an n=500 failure-frontier experiment.
+
