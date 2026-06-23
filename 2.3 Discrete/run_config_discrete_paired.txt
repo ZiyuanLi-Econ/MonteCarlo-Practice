@@ -1,0 +1,33 @@
+CCT DGP2 discrete running-variable unified config
+script_file=cct_2_3_discrete_paired.py
+experiment=all
+reps=5000
+seed=12345
+general_n_grid=[500, 750, 1000, 1500, 2000, 3000, 4000, 5000]
+general_fixed_deltas=[0.01, 0.015, 0.02, 0.025, 0.03, 0.035, 0.04, 0.045, 0.05]
+frontier_n=500
+frontier_fixed_deltas=[0.01, 0.015, 0.02, 0.025, 0.03, 0.035, 0.04, 0.045, 0.05, 0.055, 0.06, 0.065, 0.07, 0.075, 0.08, 0.09, 0.1, 0.12]
+stress_deltas=[]
+scenario_counts_by_n={500: 20, 750: 11, 1000: 11, 1500: 11, 2000: 11, 3000: 11, 4000: 11, 5000: 11}
+paired_design=nested common random numbers across n and paired latent X/epsilon across scenarios
+shared_cells=simulated once and tagged as design_scope=both
+shrinking_delta=0.05 * (500/n)^0.5
+true_tau=-3.45
+error_sd=0.1295
+p=1
+q=2
+kernel=triangular
+bwselect=mserd
+vce=nn
+masspoints=adjust
+bwcheck=10
+methods=['Conventional MSE', 'RBC MSE', 'Bias-aware/Honest']
+length_pathology_cutoff=10.0
+honest_length_pathology_cutoff=20.0
+usability_threshold=0.8
+min_display_usable=30
+output_dir=results
+honest_auxiliary_method=same MSE bandwidth, DGP curvature-bound bias-aware benchmark; not canonical optimal honest RD
+frontier_strict_rule=raw success; obs_h per side >= 20; min_unique_h >= 5; min_unique_b >= 6
+figures_png=Figure 4.10 revised - RBC Coverage and Aggregate Usability; Figure 4.10b - RBC Shrinking-Grid Path; Figure 4.11 revised - Discrete RBC Failure Frontier; Figure_4_12_Bias_Aware_Honest_Check_n500; Appendix A - RBC Minimal Usability Heatmap; Appendix B - Local Support Heatmaps; Appendix C - RBC Fixed vs Shrinking Path
+figure_output_dir=results/figures
