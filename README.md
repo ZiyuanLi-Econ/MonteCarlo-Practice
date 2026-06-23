@@ -4,6 +4,15 @@ Monte Carlo experiments for robust bias-corrected inference in sharp regression 
 
 The repository is organized as a reproducible research archive rather than a packaged Python library. Each experiment has its own script, configuration record, saved result tables, and figure outputs.
 
+## Key findings
+
+- **Baseline design:** conventional MSE confidence intervals undercover in the baseline RD design, with empirical coverage of about 85.2%. Robust bias correction raises coverage to about 93.0% with only a moderate increase in average interval length.
+- **Heteroskedasticity:** RBC improves coverage by roughly 7-8 percentage points relative to conventional robust-SE intervals across the heteroskedastic designs. The improvement is meaningful, but the side-specific and near-cutoff volatility designs still fall short of nominal 95% coverage.
+- **Non-normal errors:** RBC remains comparatively stable under severe skewness, heavy tails, and one-sided contamination. Across the four non-normal scenarios, RBC coverage is about 93.0%-95.9%, compared with about 85.2%-87.4% for conventional intervals.
+- **Discrete running variables:** fine discretization can preserve much of the continuous-design RBC performance, but coarser support quickly becomes a local-support problem. At `n = 500`, fixed grids around `delta = 0.08` and above show sharp drops in RBC usability and coverage as the number of support points inside the local window becomes too small.
+
+The detailed evidence is in the saved summary tables and figures under each experiment's `results/` folder.
+
 ## Experiments
 
 1. **Baseline**
