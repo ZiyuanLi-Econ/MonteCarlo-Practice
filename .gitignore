@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Local archives and temporary files
+Seminar code.zip
+*.tmp
+*.log
+
+# Very large raw Monte Carlo outputs
+2.3 Discrete/results/discrete_mechanism_raw.csv
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
