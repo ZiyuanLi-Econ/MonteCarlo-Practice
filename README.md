@@ -1,1 +1,85 @@
 # MonteCarlo-Practice
+
+Monte Carlo experiments for robust bias-corrected inference in sharp regression discontinuity designs, based on the seminar project on Calonico, Cattaneo, and Titiunik style RD inference.
+
+The repository is organized as a reproducible research archive rather than a packaged Python library. Each experiment has its own script, configuration record, saved result tables, and figure outputs.
+
+## Experiments
+
+1. **Baseline**
+   - Homoskedastic CCT sharp RD Monte Carlo design.
+   - Compares conventional, undersmoothing, bias-corrected, and robust bias-corrected confidence intervals.
+
+2. **Heteroskedasticity**
+   - Keeps the baseline RD design but changes the conditional error variance.
+   - Compares conventional and RBC inference with robust standard errors.
+
+3. **Nonnormal errors**
+   - Keeps the DGP fixed but changes the error distribution.
+   - Studies normal errors, skewed errors, heavy tails, and one-sided contamination.
+
+4. **Discrete running variable**
+   - Studies fixed-support and shrinking-support discrete running variables.
+   - Includes a failure-frontier experiment for local support problems at `n = 500`.
+
+## Repository layout
+
+```text
+1 Baseline/
+  code/
+  results/
+  run_config.txt
+
+2.1 Heteroskedasticity/
+  code/
+  results/
+  run_config_hetero_paired.txt
+
+2.2 Nonnormal/
+  code/
+  results/
+  run_config_nonnormal_paired.txt
+
+2.3 Discrete/
+  code/
+  results/
+  run_config_discrete_paired.txt
+  README_discrete_paired.md
+
+Paper/
+```
+
+## Setup
+
+Use Python 3.10+ if possible.
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+The scripts depend on the Python `rdrobust` package. If `rdrobust` is not available in your Python environment, install it before running the experiments.
+
+## Run quick checks
+
+```bash
+python "1 Baseline/code/cct_1_baseline.py" --reps 100 --n 500
+python "2.1 Heteroskedasticity/code/cct_2_1_heteroskedasticity_paired.py" --reps 100
+python "2.2 Nonnormal/code/cct_2_2_nonnormal_paired.py" --reps 100
+python "2.3 Discrete/code/cct_2_3_discrete_paired.py" --reps 20 --general-n-grid 500 1000
+```
+
+Full seminar runs use larger replication counts and can take substantially longer.
+
+## Data and output policy
+
+Saved summary tables and figure data are suitable for version control. Very large raw simulation outputs are intentionally excluded from GitHub when they exceed normal repository limits.
+
+In the local seminar folder, `2.3 Discrete/results/discrete_mechanism_raw.csv` is about 967 MB, which is too large for ordinary GitHub upload. Use Git LFS, an external archive, or regenerate it from the script when needed.
+
+The duplicate archive `Seminar code.zip` is also excluded because the repository already stores the source files directly.
+
+## Notes
+
+This repository was initialized from the local seminar folder on June 23, 2026.
