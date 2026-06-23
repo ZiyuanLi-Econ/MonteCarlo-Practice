@@ -1,0 +1,19 @@
+Baseline heteroskedasticity extension config (paired design)
+design=paired_X_and_base_normal_shock_by_replication
+reps=5000
+n=500
+seed=12345
+true_tau=-3.45
+sigma_eps=0.1295
+gamma=1.0
+normalize=sample
+cutoff_scale=0.1
+scenarios=H0,H1,H2,H3
+main_bwselect=mserd
+main_vce=nn
+include_cerrd=False
+kernel=tri
+p=1
+q=2
+level=95.0
+masspoints=off
