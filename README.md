@@ -2,7 +2,11 @@
 
 Monte Carlo experiments for robust bias-corrected inference in sharp regression discontinuity designs, based on the seminar project on Calonico, Cattaneo, and Titiunik style RD inference.
 
-The repository is organized as a reproducible research archive rather than a packaged Python library. Each experiment has its own script, configuration record, saved result tables, and figure outputs.
+**TL;DR.** This project asks when robust bias correction (RBC) improves regression discontinuity confidence intervals, and when finite-sample complications such as heteroskedasticity, non-normal errors, and discrete running variables make inference fragile.
+
+**Paper.** [PDF](Paper/Robust%20Bias-Corrected%20Inference%20in%20RDDs.pdf) | [Word draft](Paper/Robust%20Bias-Corrected%20Inference%20in%20RDDs.docx)
+
+This repository is organized as a reproducible research archive rather than a packaged Python library. Each experiment has its own script, configuration record, saved result tables, and figure outputs.
 
 ## Key findings
 
@@ -13,23 +17,28 @@ The repository is organized as a reproducible research archive rather than a pac
 
 The detailed evidence is in the saved summary tables and figures under each experiment's `results/` folder.
 
-## Experiments
+## Key figures
 
-1. **Baseline**
-   - Homoskedastic CCT sharp RD Monte Carlo design.
-   - Compares conventional, undersmoothing, bias-corrected, and robust bias-corrected confidence intervals.
+Baseline coverage improvement:
 
-2. **Heteroskedasticity**
-   - Keeps the baseline RD design but changes the conditional error variance.
-   - Compares conventional and RBC inference with robust standard errors.
+![Baseline coverage](1%20Baseline/results/figures/coverage_bar.png)
 
-3. **Nonnormal errors**
-   - Keeps the DGP fixed but changes the error distribution.
-   - Studies normal errors, skewed errors, heavy tails, and one-sided contamination.
+Heteroskedasticity coverage comparison:
 
-4. **Discrete running variable**
-   - Studies fixed-support and shrinking-support discrete running variables.
-   - Includes a failure-frontier experiment for local support problems at `n = 500`.
+![Heteroskedasticity coverage](2.1%20Heteroskedasticity/results/figures/fig_hetero_coverage_main.png)
+
+Discrete-running-variable failure frontier:
+
+![Discrete RBC failure frontier](2.3%20Discrete/results/figures/Figure%204.11%20revised%20-%20Discrete%20RBC%20Failure%20Frontier.png)
+
+## Experiment map
+
+| Experiment | Question | Main script | Main outputs |
+| --- | --- | --- | --- |
+| Baseline | Does RBC repair undercoverage in the homoskedastic CCT RD design? | [`cct_1_baseline.py`](1%20Baseline/code/cct_1_baseline.py) | [`baseline_summary.csv`](1%20Baseline/results/baseline_summary.csv), [`coverage_bar.png`](1%20Baseline/results/figures/coverage_bar.png) |
+| Heteroskedasticity | Does RBC still help when errors are heteroskedastic and robust SEs are already used? | [`cct_2_1_heteroskedasticity_paired.py`](2.1%20Heteroskedasticity/code/cct_2_1_heteroskedasticity_paired.py) | [`hetero_interpretation_table.csv`](2.1%20Heteroskedasticity/results/hetero_interpretation_table.csv), [`fig_hetero_coverage_main.png`](2.1%20Heteroskedasticity/results/figures/fig_hetero_coverage_main.png) |
+| Non-normal errors | How stable is RBC under skewness, heavy tails, and one-sided contamination? | [`cct_2_2_nonnormal_paired.py`](2.2%20Nonnormal/code/cct_2_2_nonnormal_paired.py) | [`nonnormal_summary.csv`](2.2%20Nonnormal/results/nonnormal_summary.csv), [`coverage_by_scenario_method.png`](2.2%20Nonnormal/results/figures/coverage_by_scenario_method.png) |
+| Discrete running variable | When does discrete support turn RBC into a local-support problem? | [`cct_2_3_discrete_paired.py`](2.3%20Discrete/code/cct_2_3_discrete_paired.py) | [`discrete_frontier_interpretation_table.csv`](2.3%20Discrete/results/discrete_frontier_interpretation_table.csv), [`Figure 4.11`](2.3%20Discrete/results/figures/Figure%204.11%20revised%20-%20Discrete%20RBC%20Failure%20Frontier.png) |
 
 ## Repository layout
 
