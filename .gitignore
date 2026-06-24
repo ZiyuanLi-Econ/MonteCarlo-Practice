@@ -11,6 +11,7 @@ venv/
 Seminar code.zip
 *.tmp
 *.log
+Paper/*.docx
 
 # Very large raw Monte Carlo outputs
 2.3 Discrete/results/discrete_mechanism_raw.csv

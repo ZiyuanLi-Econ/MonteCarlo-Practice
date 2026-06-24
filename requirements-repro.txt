@@ -1,0 +1,11 @@
+# Recommended dependency bounds for rerunning the Monte Carlo scripts.
+#
+# The saved results and figures in this repository are already versioned.
+# Use this file when you want to rerun or extend the simulations in a fresh
+# environment. The original full pip freeze was not available, so these are
+# conservative reproducibility bounds rather than an exact lock file.
+
+numpy>=1.24,<3
+pandas>=1.5,<4
+matplotlib>=3.7,<4
+rdrobust
