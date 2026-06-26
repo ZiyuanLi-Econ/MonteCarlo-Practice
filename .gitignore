@@ -11,10 +11,10 @@ venv/
 Seminar code.zip
 *.tmp
 *.log
-program-01-rd-rbc/paper/*.docx
+Program-01-RD-RBC/Paper/*.docx
 
 # Very large raw Monte Carlo outputs
-program-01-rd-rbc/code/2.3 Discrete/results/discrete_mechanism_raw.csv
+Program-01-RD-RBC/Code/2.3 Discrete/results/discrete_mechanism_raw.csv
 
 # OS/editor files
 .DS_Store

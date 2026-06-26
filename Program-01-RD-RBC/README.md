@@ -4,12 +4,12 @@ Portfolio-style Monte Carlo program in applied econometrics. Program 1 studies r
 
 **TL;DR.** This program asks when robust bias correction (RBC) improves regression discontinuity confidence intervals, and when finite-sample complications such as heteroskedasticity, non-normal errors, and discrete running variables make inference fragile.
 
-**Paper.** [PDF](paper/Robust%20Bias-Corrected%20Inference%20in%20RDDs.pdf)
+**Paper.** [PDF](Paper/Robust%20Bias-Corrected%20Inference%20in%20RDDs.pdf)
 
 ## Structure
 
 ```text
-code/
+Code/
   1 Baseline/
   2.1 Heteroskedasticity/
   2.2 Nonnormal/
@@ -18,9 +18,9 @@ code/
   requirements.txt
   DATA_NOTES.md
 
-folie/
+Folie/
 
-paper/
+Paper/
 ```
 
 ## Key findings
@@ -36,24 +36,24 @@ The detailed evidence is in the saved summary tables and figures under each expe
 
 | Experiment | Question | Main script | Main outputs |
 | --- | --- | --- | --- |
-| Baseline | Does RBC repair undercoverage in the homoskedastic CCT RD design? | [`cct_1_baseline.py`](code/1%20Baseline/code/cct_1_baseline.py) | [`baseline_summary.csv`](code/1%20Baseline/results/baseline_summary.csv), [`coverage_bar.png`](code/1%20Baseline/results/figures/coverage_bar.png) |
-| Heteroskedasticity | Does RBC still help when errors are heteroskedastic and robust SEs are already used? | [`cct_2_1_heteroskedasticity_paired.py`](code/2.1%20Heteroskedasticity/code/cct_2_1_heteroskedasticity_paired.py) | [`hetero_interpretation_table.csv`](code/2.1%20Heteroskedasticity/results/hetero_interpretation_table.csv), [`fig_hetero_coverage_main.png`](code/2.1%20Heteroskedasticity/results/figures/fig_hetero_coverage_main.png) |
-| Non-normal errors | How stable is RBC under skewness, heavy tails, and one-sided contamination? | [`cct_2_2_nonnormal_paired.py`](code/2.2%20Nonnormal/code/cct_2_2_nonnormal_paired.py) | [`nonnormal_summary.csv`](code/2.2%20Nonnormal/results/nonnormal_summary.csv), [`coverage_by_scenario_method.png`](code/2.2%20Nonnormal/results/figures/coverage_by_scenario_method.png) |
-| Discrete running variable | When does discrete support turn RBC into a local-support problem? | [`cct_2_3_discrete_paired.py`](code/2.3%20Discrete/code/cct_2_3_discrete_paired.py) | [`discrete_frontier_interpretation_table.csv`](code/2.3%20Discrete/results/discrete_frontier_interpretation_table.csv), [`Figure 4.11`](code/2.3%20Discrete/results/figures/Figure%204.11%20revised%20-%20Discrete%20RBC%20Failure%20Frontier.png) |
+| Baseline | Does RBC repair undercoverage in the homoskedastic CCT RD design? | [`cct_1_baseline.py`](Code/1%20Baseline/code/cct_1_baseline.py) | [`baseline_summary.csv`](Code/1%20Baseline/results/baseline_summary.csv), [`coverage_bar.png`](Code/1%20Baseline/results/figures/coverage_bar.png) |
+| Heteroskedasticity | Does RBC still help when errors are heteroskedastic and robust SEs are already used? | [`cct_2_1_heteroskedasticity_paired.py`](Code/2.1%20Heteroskedasticity/code/cct_2_1_heteroskedasticity_paired.py) | [`hetero_interpretation_table.csv`](Code/2.1%20Heteroskedasticity/results/hetero_interpretation_table.csv), [`fig_hetero_coverage_main.png`](Code/2.1%20Heteroskedasticity/results/figures/fig_hetero_coverage_main.png) |
+| Non-normal errors | How stable is RBC under skewness, heavy tails, and one-sided contamination? | [`cct_2_2_nonnormal_paired.py`](Code/2.2%20Nonnormal/code/cct_2_2_nonnormal_paired.py) | [`nonnormal_summary.csv`](Code/2.2%20Nonnormal/results/nonnormal_summary.csv), [`coverage_by_scenario_method.png`](Code/2.2%20Nonnormal/results/figures/coverage_by_scenario_method.png) |
+| Discrete running variable | When does discrete support turn RBC into a local-support problem? | [`cct_2_3_discrete_paired.py`](Code/2.3%20Discrete/code/cct_2_3_discrete_paired.py) | [`discrete_frontier_interpretation_table.csv`](Code/2.3%20Discrete/results/discrete_frontier_interpretation_table.csv), [`Figure 4.11`](Code/2.3%20Discrete/results/figures/Figure%204.11%20revised%20-%20Discrete%20RBC%20Failure%20Frontier.png) |
 
 ## Key figures
 
 Baseline coverage improvement:
 
-![Baseline coverage](code/1%20Baseline/results/figures/coverage_bar.png)
+![Baseline coverage](Code/1%20Baseline/results/figures/coverage_bar.png)
 
 Heteroskedasticity coverage comparison:
 
-![Heteroskedasticity coverage](code/2.1%20Heteroskedasticity/results/figures/fig_hetero_coverage_main.png)
+![Heteroskedasticity coverage](Code/2.1%20Heteroskedasticity/results/figures/fig_hetero_coverage_main.png)
 
 Discrete-running-variable failure frontier:
 
-![Discrete RBC failure frontier](code/2.3%20Discrete/results/figures/Figure%204.11%20revised%20-%20Discrete%20RBC%20Failure%20Frontier.png)
+![Discrete RBC failure frontier](Code/2.3%20Discrete/results/figures/Figure%204.11%20revised%20-%20Discrete%20RBC%20Failure%20Frontier.png)
 
 ## Setup
 
@@ -62,7 +62,7 @@ Use Python 3.10+ if possible.
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
-pip install -r code/requirements.txt
+pip install -r Code/requirements.txt
 ```
 
 The scripts depend on the Python `rdrobust` package. If `rdrobust` is not available in your Python environment, install it before running the experiments.
@@ -70,23 +70,23 @@ The scripts depend on the Python `rdrobust` package. If `rdrobust` is not availa
 ## Run quick checks
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File "code/scripts/run_quick_checks.ps1"
+powershell -ExecutionPolicy Bypass -File "Code/scripts/run_quick_checks.ps1"
 ```
 
 Or run the scripts directly:
 
 ```bash
-python "code/1 Baseline/code/cct_1_baseline.py" --reps 100 --n 500
-python "code/2.1 Heteroskedasticity/code/cct_2_1_heteroskedasticity_paired.py" --reps 100
-python "code/2.2 Nonnormal/code/cct_2_2_nonnormal_paired.py" --reps 100
-python "code/2.3 Discrete/code/cct_2_3_discrete_paired.py" --reps 20 --general-n-grid 500 1000
+python "Code/1 Baseline/code/cct_1_baseline.py" --reps 100 --n 500
+python "Code/2.1 Heteroskedasticity/code/cct_2_1_heteroskedasticity_paired.py" --reps 100
+python "Code/2.2 Nonnormal/code/cct_2_2_nonnormal_paired.py" --reps 100
+python "Code/2.3 Discrete/code/cct_2_3_discrete_paired.py" --reps 20 --general-n-grid 500 1000
 ```
 
 Full Program 1 seminar runs use larger replication counts and can take substantially longer.
 
 ## Data and output policy
 
-Saved summary tables and figure data are suitable for version control. Very large raw simulation outputs are intentionally excluded from GitHub when they exceed normal repository limits. See [`code/DATA_NOTES.md`](code/DATA_NOTES.md).
+Saved summary tables and figure data are suitable for version control. Very large raw simulation outputs are intentionally excluded from GitHub when they exceed normal repository limits. See [`Code/DATA_NOTES.md`](Code/DATA_NOTES.md).
 
 ## Notes
 
