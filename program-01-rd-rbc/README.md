@@ -4,9 +4,24 @@ Portfolio-style Monte Carlo program in applied econometrics. Program 1 studies r
 
 **TL;DR.** This program asks when robust bias correction (RBC) improves regression discontinuity confidence intervals, and when finite-sample complications such as heteroskedasticity, non-normal errors, and discrete running variables make inference fragile.
 
-**Paper.** [PDF](Paper/Robust%20Bias-Corrected%20Inference%20in%20RDDs.pdf)
+**Paper.** [PDF](paper/Robust%20Bias-Corrected%20Inference%20in%20RDDs.pdf)
 
-This repository is organized as a reproducible research archive rather than a packaged Python library. It is meant to demonstrate simulation design, Python data workflows, result interpretation, and clean presentation of Monte Carlo evidence. Each experiment in Program 1 has its own script, configuration record, saved result tables, and figure outputs.
+## Structure
+
+```text
+code/
+  1 Baseline/
+  2.1 Heteroskedasticity/
+  2.2 Nonnormal/
+  2.3 Discrete/
+  scripts/
+  requirements.txt
+  DATA_NOTES.md
+
+folie/
+
+paper/
+```
 
 ## Key findings
 
@@ -21,51 +36,24 @@ The detailed evidence is in the saved summary tables and figures under each expe
 
 | Experiment | Question | Main script | Main outputs |
 | --- | --- | --- | --- |
-| Baseline | Does RBC repair undercoverage in the homoskedastic CCT RD design? | [`cct_1_baseline.py`](1%20Baseline/code/cct_1_baseline.py) | [`baseline_summary.csv`](1%20Baseline/results/baseline_summary.csv), [`coverage_bar.png`](1%20Baseline/results/figures/coverage_bar.png) |
-| Heteroskedasticity | Does RBC still help when errors are heteroskedastic and robust SEs are already used? | [`cct_2_1_heteroskedasticity_paired.py`](2.1%20Heteroskedasticity/code/cct_2_1_heteroskedasticity_paired.py) | [`hetero_interpretation_table.csv`](2.1%20Heteroskedasticity/results/hetero_interpretation_table.csv), [`fig_hetero_coverage_main.png`](2.1%20Heteroskedasticity/results/figures/fig_hetero_coverage_main.png) |
-| Non-normal errors | How stable is RBC under skewness, heavy tails, and one-sided contamination? | [`cct_2_2_nonnormal_paired.py`](2.2%20Nonnormal/code/cct_2_2_nonnormal_paired.py) | [`nonnormal_summary.csv`](2.2%20Nonnormal/results/nonnormal_summary.csv), [`coverage_by_scenario_method.png`](2.2%20Nonnormal/results/figures/coverage_by_scenario_method.png) |
-| Discrete running variable | When does discrete support turn RBC into a local-support problem? | [`cct_2_3_discrete_paired.py`](2.3%20Discrete/code/cct_2_3_discrete_paired.py) | [`discrete_frontier_interpretation_table.csv`](2.3%20Discrete/results/discrete_frontier_interpretation_table.csv), [`Figure 4.11`](2.3%20Discrete/results/figures/Figure%204.11%20revised%20-%20Discrete%20RBC%20Failure%20Frontier.png) |
+| Baseline | Does RBC repair undercoverage in the homoskedastic CCT RD design? | [`cct_1_baseline.py`](code/1%20Baseline/code/cct_1_baseline.py) | [`baseline_summary.csv`](code/1%20Baseline/results/baseline_summary.csv), [`coverage_bar.png`](code/1%20Baseline/results/figures/coverage_bar.png) |
+| Heteroskedasticity | Does RBC still help when errors are heteroskedastic and robust SEs are already used? | [`cct_2_1_heteroskedasticity_paired.py`](code/2.1%20Heteroskedasticity/code/cct_2_1_heteroskedasticity_paired.py) | [`hetero_interpretation_table.csv`](code/2.1%20Heteroskedasticity/results/hetero_interpretation_table.csv), [`fig_hetero_coverage_main.png`](code/2.1%20Heteroskedasticity/results/figures/fig_hetero_coverage_main.png) |
+| Non-normal errors | How stable is RBC under skewness, heavy tails, and one-sided contamination? | [`cct_2_2_nonnormal_paired.py`](code/2.2%20Nonnormal/code/cct_2_2_nonnormal_paired.py) | [`nonnormal_summary.csv`](code/2.2%20Nonnormal/results/nonnormal_summary.csv), [`coverage_by_scenario_method.png`](code/2.2%20Nonnormal/results/figures/coverage_by_scenario_method.png) |
+| Discrete running variable | When does discrete support turn RBC into a local-support problem? | [`cct_2_3_discrete_paired.py`](code/2.3%20Discrete/code/cct_2_3_discrete_paired.py) | [`discrete_frontier_interpretation_table.csv`](code/2.3%20Discrete/results/discrete_frontier_interpretation_table.csv), [`Figure 4.11`](code/2.3%20Discrete/results/figures/Figure%204.11%20revised%20-%20Discrete%20RBC%20Failure%20Frontier.png) |
 
 ## Key figures
 
 Baseline coverage improvement:
 
-![Baseline coverage](1%20Baseline/results/figures/coverage_bar.png)
+![Baseline coverage](code/1%20Baseline/results/figures/coverage_bar.png)
 
 Heteroskedasticity coverage comparison:
 
-![Heteroskedasticity coverage](2.1%20Heteroskedasticity/results/figures/fig_hetero_coverage_main.png)
+![Heteroskedasticity coverage](code/2.1%20Heteroskedasticity/results/figures/fig_hetero_coverage_main.png)
 
 Discrete-running-variable failure frontier:
 
-![Discrete RBC failure frontier](2.3%20Discrete/results/figures/Figure%204.11%20revised%20-%20Discrete%20RBC%20Failure%20Frontier.png)
-
-## Repository layout
-
-```text
-1 Baseline/
-  code/
-  results/
-  run_config.txt
-
-2.1 Heteroskedasticity/
-  code/
-  results/
-  run_config_hetero_paired.txt
-
-2.2 Nonnormal/
-  code/
-  results/
-  run_config_nonnormal_paired.txt
-
-2.3 Discrete/
-  code/
-  results/
-  run_config_discrete_paired.txt
-  README_discrete_paired.md
-
-Paper/
-```
+![Discrete RBC failure frontier](code/2.3%20Discrete/results/figures/Figure%204.11%20revised%20-%20Discrete%20RBC%20Failure%20Frontier.png)
 
 ## Setup
 
@@ -74,29 +62,31 @@ Use Python 3.10+ if possible.
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r code/requirements.txt
 ```
 
-The scripts depend on the Python `rdrobust` package. If `rdrobust` is not available in your Python environment, install it before running the experiments. For a more reproducible rerun environment, see [`requirements-repro.txt`](requirements-repro.txt), which records recommended package bounds for rerunning the saved Monte Carlo scripts.
+The scripts depend on the Python `rdrobust` package. If `rdrobust` is not available in your Python environment, install it before running the experiments.
 
 ## Run quick checks
 
+```powershell
+powershell -ExecutionPolicy Bypass -File "code/scripts/run_quick_checks.ps1"
+```
+
+Or run the scripts directly:
+
 ```bash
-python "1 Baseline/code/cct_1_baseline.py" --reps 100 --n 500
-python "2.1 Heteroskedasticity/code/cct_2_1_heteroskedasticity_paired.py" --reps 100
-python "2.2 Nonnormal/code/cct_2_2_nonnormal_paired.py" --reps 100
-python "2.3 Discrete/code/cct_2_3_discrete_paired.py" --reps 20 --general-n-grid 500 1000
+python "code/1 Baseline/code/cct_1_baseline.py" --reps 100 --n 500
+python "code/2.1 Heteroskedasticity/code/cct_2_1_heteroskedasticity_paired.py" --reps 100
+python "code/2.2 Nonnormal/code/cct_2_2_nonnormal_paired.py" --reps 100
+python "code/2.3 Discrete/code/cct_2_3_discrete_paired.py" --reps 20 --general-n-grid 500 1000
 ```
 
 Full Program 1 seminar runs use larger replication counts and can take substantially longer.
 
 ## Data and output policy
 
-Saved summary tables and figure data are suitable for version control. Very large raw simulation outputs are intentionally excluded from GitHub when they exceed normal repository limits.
-
-In the local seminar folder, `2.3 Discrete/results/discrete_mechanism_raw.csv` is about 967 MB, which is too large for ordinary GitHub upload. Use Git LFS, an external archive, or regenerate it from the script when needed.
-
-The duplicate archive `Seminar code.zip` is also excluded because the repository already stores the source files directly.
+Saved summary tables and figure data are suitable for version control. Very large raw simulation outputs are intentionally excluded from GitHub when they exceed normal repository limits. See [`code/DATA_NOTES.md`](code/DATA_NOTES.md).
 
 ## Notes
 
