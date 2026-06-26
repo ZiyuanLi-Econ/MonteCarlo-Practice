@@ -1,12 +1,14 @@
-# Monte Carlo Practice: RD Robust Bias-Correction
+# Monte Carlo Programs
 
-Portfolio-style Monte Carlo practice project in applied econometrics. The repository studies robust bias-corrected inference in sharp regression discontinuity designs, based on the seminar project on Calonico, Cattaneo, and Titiunik style RD inference.
+## Program 1: RD Robust Bias-Correction
 
-**TL;DR.** This project asks when robust bias correction (RBC) improves regression discontinuity confidence intervals, and when finite-sample complications such as heteroskedasticity, non-normal errors, and discrete running variables make inference fragile.
+Portfolio-style Monte Carlo program in applied econometrics. Program 1 studies robust bias-corrected inference in sharp regression discontinuity designs, based on the seminar project on Calonico, Cattaneo, and Titiunik style RD inference.
+
+**TL;DR.** This program asks when robust bias correction (RBC) improves regression discontinuity confidence intervals, and when finite-sample complications such as heteroskedasticity, non-normal errors, and discrete running variables make inference fragile.
 
 **Paper.** [PDF](Paper/Robust%20Bias-Corrected%20Inference%20in%20RDDs.pdf)
 
-This repository is organized as a reproducible research archive rather than a packaged Python library. It is meant to demonstrate simulation design, Python data workflows, result interpretation, and clean presentation of Monte Carlo evidence. Each experiment has its own script, configuration record, saved result tables, and figure outputs.
+This repository is organized as a reproducible research archive rather than a packaged Python library. It is meant to demonstrate simulation design, Python data workflows, result interpretation, and clean presentation of Monte Carlo evidence. Each experiment in Program 1 has its own script, configuration record, saved result tables, and figure outputs.
 
 ## Key findings
 
@@ -88,7 +90,7 @@ python "2.2 Nonnormal/code/cct_2_2_nonnormal_paired.py" --reps 100
 python "2.3 Discrete/code/cct_2_3_discrete_paired.py" --reps 20 --general-n-grid 500 1000
 ```
 
-Full seminar runs use larger replication counts and can take substantially longer.
+Full Program 1 seminar runs use larger replication counts and can take substantially longer.
 
 ## Data and output policy
 
@@ -100,4 +102,4 @@ The duplicate archive `Seminar code.zip` is also excluded because the repository
 
 ## Notes
 
-This repository was initialized from the local seminar folder on June 23, 2026.
+Program 1 was initialized from the local seminar folder on June 23, 2026.
